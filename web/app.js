@@ -1447,9 +1447,13 @@ function showPerson(info, id, data, inTree = true) {
   add(KIND_SHOWN.has(p.kind) ? "Domain" : "Who", p.about);
   add("In the book", p.in_book && p.description !== p.about ? p.description : "");
   add("Also called", otherNames(p.name, p.aliases).slice(0, 6).join(", "));
-  add("Parents", related("parent_of", "b", "a").join(", "));
-  add("Children", related("parent_of", "a", "b").join(", "));
-  add("Spouse", [...related("spouse_of", "a", "b"), ...related("spouse_of", "b", "a")].join(", "));
+  // The relatives.
+  const checked = (relation, own, other) => data.relationships
+    .filter((r) => r.relation === relation && r[own] === id && byId.has(r[other]))
+    .map((r) => byId.get(r[other]).name);
+  add("Parents", checked("parent_of", "b", "a").join(", "));
+  add("Children", checked("parent_of", "a", "b").join(", "));
+  add("Spouse", [...checked("spouse_of", "a", "b"), ...checked("spouse_of", "b", "a")].join(", "));
   const page = state.about && (p.wikidata || []).map((q) => state.about.characters[q]).find((c) => c && c.url);
   const pic = page && picture(page.url);
   if (pic) rows.unshift(pic);
@@ -1488,8 +1492,11 @@ function showFound() {
   const spans = els.text.querySelectorAll(".s");
   const scene = find.scene === null || find.scene === undefined ? null : scenes()[find.scene];
   if (scene) setScene(find.scene);
+  // A link to one sentence (where a family link was read) opens at that sentence; otherwise at the first that names
+  // the character.
   const hit = scene ? els.text.querySelector(`.s[data-i="${scene.start_sentence}"]`)
-    : [...(spans.length ? spans : els.text.querySelectorAll("p"))].find((node) => find.names.some((n) => node.textContent.includes(n)));
+    : (find.sentence != null && els.text.querySelector(`.s[data-i="${find.sentence}"]`))
+      || [...(spans.length ? spans : els.text.querySelectorAll("p"))].find((node) => find.names.some((n) => node.textContent.includes(n)));
   if (!hit) return;
   state.sceneLock = Date.now() + 1500;        // the jump itself must not move the scene card to another scene
   const folded = hit.closest("details");

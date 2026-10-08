@@ -1,0 +1,30 @@
+{
+ "about": "Namesakes split by hand: the tree joins people by name, so these are kept apart section by section (see annotate/merge.py, apply_namesakes).",
+ "split": [
+  {
+   "name": "Menoetius",
+   "groups": [
+    {
+     "name": "Menoetius, son of Iapetus",
+     "about": "Titan, son of Iapetus and Asia, hurled to Tartarus by Zeus",
+     "entries": [
+      [
+       "apollodorus-body-2",
+       "Menoetius"
+      ]
+     ]
+    },
+    {
+     "name": "Menoetius, father of Patroclus",
+     "about": "son of Actor and Aegina, father of Patroclus",
+     "entries": [
+      [
+       "apollodorus-body-32",
+       "Menoetius"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

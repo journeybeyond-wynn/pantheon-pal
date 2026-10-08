@@ -1,0 +1,20 @@
+{
+ "merge": [],
+ "separate": [],
+ "remove": [],
+ "add": [
+  [
+   "Zephyrus",
+   "parent_of",
+   "Xanthus, horse of Achilles",
+   "Iliad 16.148: the horses Podarge bore to the west wind"
+  ],
+  [
+   "Dryas",
+   "parent_of",
+   "Lycurgus",
+   "Iliad 6: \"Lycurgus, son of Dryas\""
+  ]
+ ],
+ "about": {}
+}

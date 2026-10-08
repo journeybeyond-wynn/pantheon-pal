@@ -1,0 +1,106 @@
+{
+ "about": "Namesakes split by hand: the tree joins people by name, so these are kept apart section by section (see annotate/merge.py, apply_namesakes).",
+ "split": [
+  {
+   "name": "Perseus",
+   "groups": [
+    {
+     "name": "Perseus",
+     "about": "mythical hero, son of Zeus and Danae, slayer of Medusa, founder of Mycenae",
+     "entries": [
+      [
+       "pausanias-body-22",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-23",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-59",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-60",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-62",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-65",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-67",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-83",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-84",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-99",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-100",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-102",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-143",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-162",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-329",
+       "Perseus"
+      ]
+     ]
+    },
+    {
+     "name": "Perseus, king of Macedon",
+     "about": "last king of Macedon, son of Philip V, defeated by Rome",
+     "entries": [
+      [
+       "pausanias-body-36",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-53",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-137",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-207",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-210",
+       "Perseus"
+      ],
+      [
+       "pausanias-body-232",
+       "Perseus"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

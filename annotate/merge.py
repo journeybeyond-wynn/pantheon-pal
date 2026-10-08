@@ -161,11 +161,12 @@ def apply_namesakes(out_dir: Path, annotations: dict[str, dict]) -> None:
     """Different people who share a name (python -m annotate.namesakes): in the annotations ({section id: result}),
     each section's entry for such a name takes the name of the person it is ("Ptolemy, son of Lagus"), and the shared
     name no longer joins anyone. Changed in place; nothing happens if the book has no namesakes.json."""
-    names_file = out_dir / "namesakes.json"
-    if not names_file.exists():
+    # Splits made by hand (curated/namesakes.json, same layout) are added to the step's own, and survive a re-run of it.
+    files = [f for f in (out_dir / "namesakes.json", out_dir.parent / "curated" / "namesakes.json") if f.exists()]
+    if not files:
         return
     renamed, shared = {}, set()
-    for s in json.loads(names_file.read_text(encoding="utf-8"))["split"]:
+    for s in [s for f in files for s in json.loads(f.read_text(encoding="utf-8"))["split"]]:
         for g in s["groups"]:
             for sid, name in g["entries"]:
                 renamed[(sid, norm(name))] = g["name"]
@@ -186,7 +187,7 @@ def slugify(name: str) -> str:
     return re.sub(r"\s+", "-", norm(name)) or "unnamed"
 
 
-def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
+def merge(slug: str, root: Path = ROOT, review: bool = True, theoi: bool = True) -> dict:
     out_dir = root / "data" / slug / "output"
     sections = [s for s in json.loads((out_dir / "sections.json").read_text(encoding="utf-8"))["sections"]
                 if s["category"] == "body"]
@@ -247,6 +248,9 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
     wd = json.loads(wd_file.read_text(encoding="utf-8")) if wd_file.exists() else {"names": {}, "entities": {}}
     entities = wd["entities"]
     qid_of = {key: n["qid"] for key, n in wd["names"].items() if n["qid"] and n["confidence"] == "high"}
+    # Matches set by hand ("wikidata" in curated/aliases.json: {name: qid}), for a name the Wikidata step did not see,
+    # such as one a namesake split made up ("Menoetius, father of Patroclus").
+    qid_of.update({norm(name): qid for name, qid in curated.get("wikidata", {}).items()})
 
     def blocked(pair) -> bool:
         ra, rb = (groups.find(x) for x in pair)
@@ -486,6 +490,24 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
                 del edges[key]
                 removed += 1
 
+    # The check against the Theoi Project (python -m annotate.theoi): links it shows to be wrong are removed, the
+    # parents it cites to this same book are added in their place, and the links it confirms carry its citations.
+    theoi_file = root / "data" / slug / "curated" / "theoi.json"
+    checked = json.loads(theoi_file.read_text(encoding="utf-8")) if theoi and theoi_file.exists() else {}
+    for a_name, rel, b_name, *_ in checked.get("remove", []):
+        a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
+        for key in {(a, rel, b), (b, rel, a)}:
+            edges.pop(key, None)
+    for a_name, rel, b_name, cite in checked.get("add", []):
+        a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
+        if a in people and b in people and a != b and (a, rel, b) not in edges:
+            edges[(a, rel, b)] = {"source": "outside", "first": None, "evidence": [], "note": f"Theoi: {cite}"}
+    theoi_cites = {}
+    for a_name, rel, b_name, cites in checked.get("confirmed", []) + [r[:3] + [[r[3]]] for r in checked.get("add", [])]:
+        a, b = groups.find(norm(a_name)), groups.find(norm(b_name))
+        theoi_cites[(a, rel, b)] = theoi_cites[(b, rel, a)] = cites
+    theoi_places = checked.get("places", {})
+
     # 4. When does each person first appear? Outside-only people appear with the earliest relative who does.
     first_of: dict[str, int | None] = {}
     for key, p in people.items():
@@ -536,7 +558,9 @@ def merge(slug: str, root: Path = ROOT, review: bool = True) -> dict:
             first = None if None in ends else max(ends)
         result_edges.append({"a": id_of[a], "relation": rel, "b": id_of[b], "source": e["source"], "note": e.get("note", ""),
                              "first_index": first, "first_section": sections[first]["id"] if first is not None else None,
-                             "evidence": e["evidence"], "check": e.get("check", "")})
+                             "evidence": e["evidence"], "check": e.get("check", ""),
+                             "theoi": [{"cite": c, **theoi_places.get(c, {})} for c in theoi_cites.get((a, rel, b), [])]
+                             if (a, rel, b) in theoi_cites else None})
     result_edges.sort(key=lambda e: (e["first_index"] is None, e["first_index"] or 0))
     raw = sum(len(a["characters"]) for a in annotations.values())
     return {"slug": slug, "sections": [s["id"] for s in sections], "people": result_people,

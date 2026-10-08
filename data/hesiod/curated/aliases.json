@@ -1,0 +1,64 @@
+{
+ "merge": [],
+ "separate": [],
+ "remove": [],
+ "add": [
+  [
+   "Zeus",
+   "parent_of",
+   "Aglaea",
+   "Theogony 907-909: Eurynome bore Zeus the three Graces"
+  ],
+  [
+   "Eurynome",
+   "parent_of",
+   "Aglaea",
+   "Theogony 907-909: Eurynome bore Zeus the three Graces"
+  ],
+  [
+   "Zeus",
+   "parent_of",
+   "Euphrosyne",
+   "Theogony 907-909: Eurynome bore Zeus the three Graces"
+  ],
+  [
+   "Eurynome",
+   "parent_of",
+   "Euphrosyne",
+   "Theogony 907-909: Eurynome bore Zeus the three Graces"
+  ],
+  [
+   "Clymene",
+   "parent_of",
+   "Menoetius",
+   "Theogony 507-510: Clymene bore Iapetus Atlas, Menoetius, Prometheus and Epimetheus"
+  ],
+  [
+   "Clymene",
+   "parent_of",
+   "Prometheus",
+   "Theogony 507-510: Clymene bore Iapetus Atlas, Menoetius, Prometheus and Epimetheus"
+  ],
+  [
+   "Zeus",
+   "parent_of",
+   "Thaleia, one of the Graces",
+   "Theogony 907-909: Eurynome bore Zeus the three Graces, Aglaea, Euphrosyne and lovely Thaleia"
+  ],
+  [
+   "Eurynome",
+   "parent_of",
+   "Thaleia, one of the Graces",
+   "Theogony 907-909: Eurynome bore Zeus the three Graces, Aglaea, Euphrosyne and lovely Thaleia"
+  ],
+  [
+   "Zeus",
+   "parent_of",
+   "Thaleia",
+   "Theogony 76-77: the nine Muses, daughters of great Zeus, among them Thaleia"
+  ]
+ ],
+ "about": {
+  "Thaleia, one of the Graces": "one of the three Graces, daughter of Zeus and Eurynome"
+ }
+}

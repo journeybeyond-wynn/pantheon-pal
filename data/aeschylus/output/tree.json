@@ -41,171 +41,6 @@
  ],
  "people": [
   {
-   "id": "chorus",
-   "name": "Chorus",
-   "kind": "mortal",
-   "in_book": true,
-   "about": "",
-   "aliases": [
-    "Curses",
-    "Danaids",
-    "Erinyes",
-    "Furious Ones",
-    "Venerable Goddesses"
-   ],
-   "epithets": [
-    "Daughters of Oceanus",
-    "Leader of the Chorus",
-    "Spirits of Vengeance",
-    "daughters of Night",
-    "daughters of Oceanus",
-    "suppliant maidens",
-    "the Furious Ones"
-   ],
-   "first_index": 0,
-   "first_section": "aeschylus-body-1",
-   "section_count": 35,
-   "descriptions": [
-    {
-     "section": "aeschylus-body-1",
-     "text": "Aged Argive men"
-    },
-    {
-     "section": "aeschylus-body-2",
-     "text": "Elders of Argos"
-    },
-    {
-     "section": "aeschylus-body-3",
-     "text": "Elders of Argos who comment on events"
-    },
-    {
-     "section": "aeschylus-body-5",
-     "text": "Argive elders who watch and debate"
-    },
-    {
-     "section": "aeschylus-body-6",
-     "text": "Elders of Argos mourning their king"
-    },
-    {
-     "section": "aeschylus-body-7",
-     "text": "Women serving the house who bring libations"
-    },
-    {
-     "section": "aeschylus-body-8",
-     "text": "Women attendants who bring libations to the tomb"
-    },
-    {
-     "section": "aeschylus-body-9",
-     "text": "Captive women who brought libations to the tomb"
-    },
-    {
-     "section": "aeschylus-body-10",
-     "text": "women who sing of crime and justice"
-    },
-    {
-     "section": "aeschylus-body-11",
-     "text": "Libation-bearing women loyal to Orestes"
-    },
-    {
-     "section": "aeschylus-body-12",
-     "text": "Women who support Orestes"
-    },
-    {
-     "section": "aeschylus-body-14",
-     "text": "The Furies, ancient avengers of kin-murder"
-    },
-    {
-     "section": "aeschylus-body-15",
-     "text": "The Furies, Night's children, avengers of kindred blood"
-    },
-    {
-     "section": "aeschylus-body-16",
-     "text": "the Furies, who prosecute Orestes for killing his mother"
-    },
-    {
-     "section": "aeschylus-body-17",
-     "text": "the Furies, ancient goddesses who pursue Orestes and are angered by his acquittal"
-    },
-    {
-     "section": "aeschylus-body-18",
-     "text": "the Furies, ancient goddesses angry at losing their honour"
-    },
-    {
-     "section": "aeschylus-body-19",
-     "text": "The Furies, now kindly, who bless Athens"
-    },
-    {
-     "section": "aeschylus-body-20",
-     "text": "Sea nymphs who come in sympathy"
-    },
-    {
-     "section": "aeschylus-body-21",
-     "text": "Sympathetic women who mourn Prometheus"
-    },
-    {
-     "section": "aeschylus-body-22",
-     "text": "Daughters of Oceanus who sympathize with Prometheus"
-    },
-    {
-     "section": "aeschylus-body-23",
-     "text": "Sea-nymphs who sympathize with Prometheus"
-    },
-    {
-     "section": "aeschylus-body-24",
-     "text": "Persian elders left as guardians of the realm"
-    },
-    {
-     "section": "aeschylus-body-25",
-     "text": "Aged Persian counsellors"
-    },
-    {
-     "section": "aeschylus-body-26",
-     "text": "Elders of Persia who counsel the realm"
-    },
-    {
-     "section": "aeschylus-body-27",
-     "text": "Persian elders who counsel the realm and mourn"
-    },
-    {
-     "section": "aeschylus-body-29",
-     "text": "Theban women who pray in terror"
-    },
-    {
-     "section": "aeschylus-body-30",
-     "text": "Theban women frightened for their city"
-    },
-    {
-     "section": "aeschylus-body-31",
-     "text": "Theban women who fear for the city"
-    },
-    {
-     "section": "aeschylus-body-32",
-     "text": "the daughters of Danaüs, suppliants"
-    },
-    {
-     "section": "aeschylus-body-33",
-     "text": "The daughters of Danaüs fleeing marriage"
-    },
-    {
-     "section": "aeschylus-body-34",
-     "text": "the suppliant maidens fleeing unwanted marriage"
-    },
-    {
-     "section": "aeschylus-body-35",
-     "text": "the Danaid maidens, suppliants descended from Io"
-    },
-    {
-     "section": "aeschylus-body-36",
-     "text": "The fugitive daughters of Danaüs seeking protection"
-    },
-    {
-     "section": "aeschylus-body-37",
-     "text": "The daughters of Danaus, suppliants seeking refuge"
-    }
-   ],
-   "wikidata": []
-  },
-  {
    "id": "zeus",
    "name": "Zeus",
    "kind": "god",
@@ -763,6 +598,63 @@
    ]
   },
   {
+   "id": "chorus-of-argive-elders-agamemnon",
+   "name": "Chorus of Argive Elders (Agamemnon)",
+   "kind": "mortal",
+   "in_book": true,
+   "about": "",
+   "aliases": [
+    "Chorus of Persian Elders",
+    "Danaans",
+    "Elders"
+   ],
+   "epithets": [
+    "Leader of the Chorus"
+   ],
+   "first_index": 0,
+   "first_section": "aeschylus-body-1",
+   "section_count": 10,
+   "descriptions": [
+    {
+     "section": "aeschylus-body-1",
+     "text": "Aged Argive men"
+    },
+    {
+     "section": "aeschylus-body-2",
+     "text": "Elders of Argos"
+    },
+    {
+     "section": "aeschylus-body-3",
+     "text": "Elders of Argos who comment on events"
+    },
+    {
+     "section": "aeschylus-body-5",
+     "text": "Argive elders who watch and debate"
+    },
+    {
+     "section": "aeschylus-body-6",
+     "text": "Elders of Argos mourning their king"
+    },
+    {
+     "section": "aeschylus-body-24",
+     "text": "Persian elders left as guardians of the realm"
+    },
+    {
+     "section": "aeschylus-body-25",
+     "text": "Aged Persian counsellors"
+    },
+    {
+     "section": "aeschylus-body-26",
+     "text": "Elders of Persia who counsel the realm"
+    },
+    {
+     "section": "aeschylus-body-27",
+     "text": "Persian elders who counsel the realm and mourn"
+    }
+   ],
+   "wikidata": []
+  },
+  {
    "id": "athena",
    "name": "Athena",
    "kind": "goddess",
@@ -872,6 +764,65 @@
    ]
   },
   {
+   "id": "chorus-of-the-furies",
+   "name": "Chorus of the Furies",
+   "kind": "goddess",
+   "in_book": true,
+   "about": "vengeful deities of the Roman mythology",
+   "aliases": [
+    "Curses",
+    "Erinyes",
+    "Furies",
+    "Furious Ones",
+    "Venerable Goddesses"
+   ],
+   "epithets": [
+    "Spirits of Vengeance",
+    "daughters of Night",
+    "the Furious Ones"
+   ],
+   "first_index": 12,
+   "first_section": "aeschylus-body-13",
+   "section_count": 8,
+   "descriptions": [
+    {
+     "section": "aeschylus-body-13",
+     "text": "avenging spirits of the underworld, asleep"
+    },
+    {
+     "section": "aeschylus-body-14",
+     "text": "The Furies, ancient avengers of kin-murder"
+    },
+    {
+     "section": "aeschylus-body-15",
+     "text": "The Furies, Night's children, avengers of kindred blood"
+    },
+    {
+     "section": "aeschylus-body-16",
+     "text": "the Furies, who prosecute Orestes for killing his mother"
+    },
+    {
+     "section": "aeschylus-body-17",
+     "text": "the Furies, ancient goddesses who pursue Orestes and are angered by his acquittal"
+    },
+    {
+     "section": "aeschylus-body-18",
+     "text": "the Furies, ancient goddesses angry at losing their honour"
+    },
+    {
+     "section": "aeschylus-body-19",
+     "text": "The Furies, now kindly, who bless Athens"
+    },
+    {
+     "section": "aeschylus-body-21",
+     "text": "Mindful powers who steer Necessity"
+    }
+   ],
+   "wikidata": [
+    "Q6019476"
+   ]
+  },
+  {
    "id": "hera",
    "name": "Hera",
    "kind": "goddess",
@@ -968,6 +919,88 @@
    "wikidata": [
     "Q40901"
    ]
+  },
+  {
+   "id": "chorus-of-libation-bearers",
+   "name": "Chorus of Libation-Bearers",
+   "kind": "mortal",
+   "in_book": true,
+   "about": "",
+   "aliases": [],
+   "epithets": [],
+   "first_index": 6,
+   "first_section": "aeschylus-body-7",
+   "section_count": 6,
+   "descriptions": [
+    {
+     "section": "aeschylus-body-7",
+     "text": "Women serving the house who bring libations"
+    },
+    {
+     "section": "aeschylus-body-8",
+     "text": "Women attendants who bring libations to the tomb"
+    },
+    {
+     "section": "aeschylus-body-9",
+     "text": "Captive women who brought libations to the tomb"
+    },
+    {
+     "section": "aeschylus-body-10",
+     "text": "women who sing of crime and justice"
+    },
+    {
+     "section": "aeschylus-body-11",
+     "text": "Libation-bearing women loyal to Orestes"
+    },
+    {
+     "section": "aeschylus-body-12",
+     "text": "Women who support Orestes"
+    }
+   ],
+   "wikidata": []
+  },
+  {
+   "id": "chorus-of-the-danaids",
+   "name": "Chorus of the Danaids",
+   "kind": "mortal",
+   "in_book": true,
+   "about": "",
+   "aliases": [
+    "Danaids"
+   ],
+   "epithets": [
+    "suppliant maidens"
+   ],
+   "first_index": 31,
+   "first_section": "aeschylus-body-32",
+   "section_count": 6,
+   "descriptions": [
+    {
+     "section": "aeschylus-body-32",
+     "text": "the daughters of Danaüs, suppliants"
+    },
+    {
+     "section": "aeschylus-body-33",
+     "text": "The daughters of Danaüs fleeing marriage"
+    },
+    {
+     "section": "aeschylus-body-34",
+     "text": "the suppliant maidens fleeing unwanted marriage"
+    },
+    {
+     "section": "aeschylus-body-35",
+     "text": "the Danaid maidens, suppliants descended from Io"
+    },
+    {
+     "section": "aeschylus-body-36",
+     "text": "The fugitive daughters of Danaüs seeking protection"
+    },
+    {
+     "section": "aeschylus-body-37",
+     "text": "The daughters of Danaus, suppliants seeking refuge"
+    }
+   ],
+   "wikidata": []
   },
   {
    "id": "danaus",
@@ -1288,6 +1321,40 @@
    "wikidata": [
     "Q170779"
    ]
+  },
+  {
+   "id": "chorus-of-oceanids",
+   "name": "Chorus of Oceanids",
+   "kind": "nymph",
+   "in_book": true,
+   "about": "",
+   "aliases": [],
+   "epithets": [
+    "Daughters of Oceanus",
+    "daughters of Oceanus"
+   ],
+   "first_index": 19,
+   "first_section": "aeschylus-body-20",
+   "section_count": 4,
+   "descriptions": [
+    {
+     "section": "aeschylus-body-20",
+     "text": "Sea nymphs who come in sympathy"
+    },
+    {
+     "section": "aeschylus-body-21",
+     "text": "Sympathetic women who mourn Prometheus"
+    },
+    {
+     "section": "aeschylus-body-22",
+     "text": "Daughters of Oceanus who sympathize with Prometheus"
+    },
+    {
+     "section": "aeschylus-body-23",
+     "text": "Sea-nymphs who sympathize with Prometheus"
+    }
+   ],
+   "wikidata": []
   },
   {
    "id": "darius",
@@ -1625,6 +1692,33 @@
    "wikidata": [
     "Q233359"
    ]
+  },
+  {
+   "id": "chorus-of-theban-women",
+   "name": "Chorus of Theban Women",
+   "kind": "mortal",
+   "in_book": true,
+   "about": "",
+   "aliases": [],
+   "epithets": [],
+   "first_index": 28,
+   "first_section": "aeschylus-body-29",
+   "section_count": 3,
+   "descriptions": [
+    {
+     "section": "aeschylus-body-29",
+     "text": "Theban women who pray in terror"
+    },
+    {
+     "section": "aeschylus-body-30",
+     "text": "Theban women frightened for their city"
+    },
+    {
+     "section": "aeschylus-body-31",
+     "text": "Theban women who fear for the city"
+    }
+   ],
+   "wikidata": []
   },
   {
    "id": "cronus",
@@ -2128,31 +2222,6 @@
    ],
    "wikidata": [
     "Q617753"
-   ]
-  },
-  {
-   "id": "furies",
-   "name": "Furies",
-   "kind": "goddess",
-   "in_book": true,
-   "about": "vengeful deities of the Roman mythology",
-   "aliases": [],
-   "epithets": [],
-   "first_index": 12,
-   "first_section": "aeschylus-body-13",
-   "section_count": 2,
-   "descriptions": [
-    {
-     "section": "aeschylus-body-13",
-     "text": "avenging spirits of the underworld, asleep"
-    },
-    {
-     "section": "aeschylus-body-21",
-     "text": "Mindful powers who steer Necessity"
-    }
-   ],
-   "wikidata": [
-    "Q6019476"
    ]
   },
   {
@@ -3766,8 +3835,8 @@
    "about": "Primordial void, first being of Greek mythology",
    "aliases": [],
    "epithets": [],
-   "first_index": 12,
-   "first_section": "aeschylus-body-13",
+   "first_index": null,
+   "first_section": null,
    "section_count": 0,
    "descriptions": [],
    "wikidata": [
@@ -4066,7 +4135,8 @@
      "sentence": 73
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "atreus",
@@ -4082,7 +4152,8 @@
      "sentence": 4
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "agamemnon",
@@ -4098,7 +4169,8 @@
      "sentence": 4
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "agamemnon",
@@ -4150,7 +4222,8 @@
      "sentence": 75
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "agamemnon",
@@ -4174,7 +4247,8 @@
      "sentence": 40
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "clytaemestra",
@@ -4190,7 +4264,8 @@
      "sentence": 10
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "leda",
@@ -4210,7 +4285,33 @@
      "sentence": 72
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Apollodorus 3.10.7",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    },
+    {
+     "cite": "Hyginus Fabulae 77"
+    },
+    {
+     "cite": "Valerius Flaccus 1.426"
+    },
+    {
+     "cite": "Aeschylus Agamemnon 914",
+     "book": "aeschylus",
+     "section": "aeschylus-body-1"
+    },
+    {
+     "cite": "Seneca Agamemnon 125"
+    },
+    {
+     "cite": "Apollodorus 3.10.6",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    }
+   ]
   },
   {
    "a": "clytaemestra",
@@ -4226,7 +4327,8 @@
      "sentence": 10
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "thyestes",
@@ -4246,7 +4348,8 @@
      "sentence": 73
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "atreus",
@@ -4266,7 +4369,8 @@
      "sentence": 73
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "helen",
@@ -4282,7 +4386,8 @@
      "sentence": 4
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "aegisthus",
@@ -4318,7 +4423,8 @@
      "sentence": 46
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "paris",
@@ -4338,7 +4444,8 @@
      "sentence": 4
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "priam",
@@ -4354,7 +4461,8 @@
      "sentence": 4
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "priam",
@@ -4370,7 +4478,8 @@
      "sentence": 15
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "rhea",
@@ -4381,7 +4490,35 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 453",
+     "book": "hesiod",
+     "section": "hesiod-body-18"
+    },
+    {
+     "cite": "Apollodorus 1.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Sic. 5.68.1"
+    },
+    {
+     "cite": "et al"
+    },
+    {
+     "cite": "Homer Iliad 15.187",
+     "book": "iliad",
+     "section": "iliad-body-15"
+    },
+    {
+     "cite": "Homeric Hymn 2.69",
+     "book": "hesiod",
+     "section": "hesiod-body-46"
+    }
+   ]
   },
   {
    "a": "zeus",
@@ -4392,7 +4529,17 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Apollodorus 1.19",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Cicero De Natura Deorum 3.22"
+    }
+   ]
   },
   {
    "a": "zeus",
@@ -4403,7 +4550,93 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 918",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Hesiod Works"
+    },
+    {
+     "cite": "Days 770"
+    },
+    {
+     "cite": "Homer Iliad 1.9",
+     "book": "iliad",
+     "section": "iliad-body-1"
+    },
+    {
+     "cite": "Homer Iliad 21.495",
+     "book": "iliad",
+     "section": "iliad-body-21"
+    },
+    {
+     "cite": "Homer Odyssey 6.100",
+     "book": "odyssey",
+     "section": "odyssey-body-6"
+    },
+    {
+     "cite": "Homer Odyssey 11.318",
+     "book": "odyssey",
+     "section": "odyssey-body-11"
+    },
+    {
+     "cite": "Homeric Hymn 27 to Artemis",
+     "book": "hesiod",
+     "section": "hesiod-body-87"
+    },
+    {
+     "cite": "Orphic Hymn 35"
+    },
+    {
+     "cite": "Pindar Nemean Ode 6",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-32"
+    },
+    {
+     "cite": "Pindar Nemean Ode 8",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-34"
+    },
+    {
+     "cite": "Pindar Processional Song on Delos"
+    },
+    {
+     "cite": "Callimachus Hymn to Artemis"
+    },
+    {
+     "cite": "Hymn to Delos"
+    },
+    {
+     "cite": "Apollodorus 1.21",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Apollodorus 3.46",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    },
+    {
+     "cite": "Pausanias 8.9.1",
+     "book": "pausanias",
+     "section": "pausanias-body-233"
+    },
+    {
+     "cite": "Pausanias 8.53.1. Hyginus Fabulae 9",
+     "book": "pausanias",
+     "section": "pausanias-body-277"
+    },
+    {
+     "cite": "Pausanias 140"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "zeus",
@@ -4414,7 +4647,8 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "laomedon",
@@ -4425,7 +4659,8 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "leda",
@@ -4436,7 +4671,8 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "tyndareus",
@@ -4447,7 +4683,8 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -4458,7 +4695,29 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Apollodorus 1.49",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Hyginus Fabulae 155"
+    },
+    {
+     "cite": "Homerica Cypria Frag 8"
+    },
+    {
+     "cite": "Apolllodoros 3.127f"
+    },
+    {
+     "cite": "Hyginus Astronomy 2.8"
+    },
+    {
+     "cite": "various sources"
+    }
+   ]
   },
   {
    "a": "leda",
@@ -4469,7 +4728,60 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Homer Iliad 3.237",
+     "book": "iliad",
+     "section": "iliad-body-3"
+    },
+    {
+     "cite": "Homer Iliad 426",
+     "book": "iliad",
+     "section": "iliad-body-1"
+    },
+    {
+     "cite": "Clement Recognitions 10.22"
+    },
+    {
+     "cite": "Hyginus Fabulae 224"
+    },
+    {
+     "cite": "Fulgentius 2.13"
+    },
+    {
+     "cite": "Apollodorus 3.10.7",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    },
+    {
+     "cite": "Hyginus Fabulae 77"
+    },
+    {
+     "cite": "Valerius Flaccus 1.426"
+    },
+    {
+     "cite": "Diodorus Siculus 4.63.2"
+    },
+    {
+     "cite": "Lucian Judgement of Paris"
+    },
+    {
+     "cite": "Hyginus Fabulae 240"
+    },
+    {
+     "cite": "Astronomica 1.8"
+    },
+    {
+     "cite": "Ovid Heroides 16.1"
+    },
+    {
+     "cite": "Ovid Heroides 17.43"
+    },
+    {
+     "cite": "Dictys Cretensis 1.9"
+    }
+   ]
   },
   {
    "a": "aerope",
@@ -4480,7 +4792,8 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "aerope",
@@ -4491,7 +4804,8 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "aerope",
@@ -4502,7 +4816,8 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -4513,7 +4828,35 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Strabo 12.8.21"
+    },
+    {
+     "cite": "Pausanias 2.22.3",
+     "book": "pausanias",
+     "section": "pausanias-body-66"
+    },
+    {
+     "cite": "Antoninus Liberalis 36"
+    },
+    {
+     "cite": "Hyginus Fabulae 155"
+    },
+    {
+     "cite": "Nonnus Dionysiaca 1.145"
+    },
+    {
+     "cite": "Nonnus Dionysiaca 48.729"
+    },
+    {
+     "cite": "Suidas"
+    },
+    {
+     "cite": "Diodorus Siculus 4.74.1"
+    }
+   ]
   },
   {
    "a": "tantalus",
@@ -4524,7 +4867,50 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Cypria Frag 12"
+    },
+    {
+     "cite": "Pindar Olympian 1.36",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-1"
+    },
+    {
+     "cite": "Apollodorus E2.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Lycophron Alexandra 53"
+    },
+    {
+     "cite": "Diodorus Siculus 4.73.5"
+    },
+    {
+     "cite": "Pausanias 2.22.3",
+     "book": "pausanias",
+     "section": "pausanias-body-66"
+    },
+    {
+     "cite": "Pausanias 2.25.10",
+     "book": "pausanias",
+     "section": "pausanias-body-69"
+    },
+    {
+     "cite": "Ovid Heroides 17.54"
+    },
+    {
+     "cite": "Fulgentius 2.25"
+    },
+    {
+     "cite": "Plutarch Parallel Stories 33"
+    },
+    {
+     "cite": "Hyginus Fabulae 83"
+    }
+   ]
   },
   {
    "a": "pelops",
@@ -4535,7 +4921,33 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Homer Iliad 2.104",
+     "book": "iliad",
+     "section": "iliad-body-2"
+    },
+    {
+     "cite": "Apollodorus 2.4.5",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Apollodorus E2.10",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Plutarch Parallel Stories 33"
+    },
+    {
+     "cite": "Hyginus Fabulae 85"
+    },
+    {
+     "cite": "Hyginus Fabulae 84"
+    }
+   ]
   },
   {
    "a": "pelops",
@@ -4546,7 +4958,33 @@
    "first_index": 0,
    "first_section": "aeschylus-body-1",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Homer Iliad 2.104",
+     "book": "iliad",
+     "section": "iliad-body-2"
+    },
+    {
+     "cite": "Apollodorus 2.4.5",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Apollodorus E2.10",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Plutarch Parallel Stories 33"
+    },
+    {
+     "cite": "Hyginus Fabulae 85"
+    },
+    {
+     "cite": "Hyginus Fabulae 84"
+    }
+   ]
   },
   {
    "a": "zeus",
@@ -4557,7 +4995,38 @@
    "first_index": 1,
    "first_section": "aeschylus-body-2",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 921",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Homer Iliad 5.699",
+     "book": "iliad",
+     "section": "iliad-body-5"
+    },
+    {
+     "cite": "Aeschylus Frag 282"
+    },
+    {
+     "cite": "Apollodorus 1.13",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Pausanias 2.14.3",
+     "book": "pausanias",
+     "section": "pausanias-body-58"
+    },
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "zeus",
@@ -4568,7 +5037,12 @@
    "first_index": 1,
    "first_section": "aeschylus-body-2",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "innumerable references"
+    }
+   ]
   },
   {
    "a": "agamemnon",
@@ -4608,7 +5082,8 @@
      "sentence": 75
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "clytaemestra",
@@ -4652,7 +5127,8 @@
      "sentence": 85
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "cassandra",
@@ -4668,7 +5144,8 @@
      "sentence": 164
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -4679,7 +5156,14 @@
    "first_index": 4,
    "first_section": "aeschylus-body-5",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Homer Iliad 19.85",
+     "book": "iliad",
+     "section": "iliad-body-19"
+    }
+   ]
   },
   {
    "a": "atreus",
@@ -4690,7 +5174,8 @@
    "first_index": 5,
    "first_section": "aeschylus-body-6",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "apollo",
@@ -4701,7 +5186,8 @@
    "first_index": 5,
    "first_section": "aeschylus-body-6",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "aerope",
@@ -4712,7 +5198,8 @@
    "first_index": 5,
    "first_section": "aeschylus-body-6",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "agamemnon",
@@ -4732,7 +5219,8 @@
      "sentence": 97
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "clytaemestra",
@@ -4748,7 +5236,8 @@
      "sentence": 7
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "electra",
@@ -4772,7 +5261,8 @@
      "sentence": 148
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "strophius",
@@ -4783,7 +5273,8 @@
    "first_index": 6,
    "first_section": "aeschylus-body-7",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "thestius",
@@ -4799,7 +5290,8 @@
      "sentence": 6
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -4810,7 +5302,18 @@
    "first_index": 9,
    "first_section": "aeschylus-body-10",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Catalogues 19A"
+    },
+    {
+     "cite": "Apollodorus"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "maia",
@@ -4826,7 +5329,48 @@
      "sentence": 63
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 938",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Hesiod Astronomy Frag 1"
+    },
+    {
+     "cite": "Homeric Hymns 4"
+    },
+    {
+     "cite": "Homeric Hymns 17"
+    },
+    {
+     "cite": "Alcaeus Frag 308"
+    },
+    {
+     "cite": "Simonides Frag 555"
+    },
+    {
+     "cite": "Aeschylus Libation Bearers 683",
+     "book": "aeschylus",
+     "section": "aeschylus-body-7"
+    },
+    {
+     "cite": "Frag 212"
+    },
+    {
+     "cite": "Apollodorus 3.112",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    },
+    {
+     "cite": "Philostratus Elder 1.26"
+    },
+    {
+     "cite": "Ovid Fasti 5.79"
+    }
+   ]
   },
   {
    "a": "zeus",
@@ -4846,7 +5390,96 @@
      "sentence": 19
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Innumerable other sources"
+    },
+    {
+     "cite": "Hesiod Theogony 918",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Hesiod Works"
+    },
+    {
+     "cite": "Days 770"
+    },
+    {
+     "cite": "Homer Iliad 1.9",
+     "book": "iliad",
+     "section": "iliad-body-1"
+    },
+    {
+     "cite": "Homer Iliad 21.495",
+     "book": "iliad",
+     "section": "iliad-body-21"
+    },
+    {
+     "cite": "Homer Odyssey 6.100",
+     "book": "odyssey",
+     "section": "odyssey-body-6"
+    },
+    {
+     "cite": "Homer Odyssey 11.318",
+     "book": "odyssey",
+     "section": "odyssey-body-11"
+    },
+    {
+     "cite": "Homeric Hymn 27 to Artemis",
+     "book": "hesiod",
+     "section": "hesiod-body-87"
+    },
+    {
+     "cite": "Orphic Hymn 35"
+    },
+    {
+     "cite": "Pindar Nemean Ode 6",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-32"
+    },
+    {
+     "cite": "Pindar Nemean Ode 8",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-34"
+    },
+    {
+     "cite": "Pindar Processional Song on Delos"
+    },
+    {
+     "cite": "Callimachus Hymn to Artemis"
+    },
+    {
+     "cite": "Hymn to Delos"
+    },
+    {
+     "cite": "Apollodorus 1.21",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Apollodorus 3.46",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    },
+    {
+     "cite": "Pausanias 8.9.1",
+     "book": "pausanias",
+     "section": "pausanias-body-233"
+    },
+    {
+     "cite": "Pausanias 8.53.1. Hyginus Fabulae 9",
+     "book": "pausanias",
+     "section": "pausanias-body-277"
+    },
+    {
+     "cite": "Pausanias 140"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "earth",
@@ -4862,7 +5495,28 @@
      "sentence": 22
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "Hesiod Theogony 135",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Apollodorus 1.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.66.1"
+    },
+    {
+     "cite": "Hyginus Pref NB text is corrupt"
+    }
+   ]
   },
   {
    "a": "earth",
@@ -4878,7 +5532,22 @@
      "sentence": 23
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 135",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Apollodorus 1.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.66.1"
+    }
+   ]
   },
   {
    "a": "hermes",
@@ -4894,18 +5563,8 @@
      "sentence": 68
     }
    ],
-   "check": "confirmed"
-  },
-  {
-   "a": "chaos",
-   "relation": "parent_of",
-   "b": "earth",
-   "source": "outside",
-   "note": "Hesiod: Gaia arose from Chaos",
-   "first_index": 12,
-   "first_section": "aeschylus-body-13",
-   "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "earth",
@@ -4916,7 +5575,28 @@
    "first_index": 12,
    "first_section": "aeschylus-body-13",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Pref"
+    },
+    {
+     "cite": "Hesiod Theogony 135",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Apollodorus 1.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.66.1"
+    },
+    {
+     "cite": "Hyginus Pref NB text is corrupt"
+    }
+   ]
   },
   {
    "a": "metis",
@@ -4927,7 +5607,8 @@
    "first_index": 12,
    "first_section": "aeschylus-body-13",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "earth",
@@ -4938,7 +5619,36 @@
    "first_index": 12,
    "first_section": "aeschylus-body-13",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "Virgil Aeneid 4.174",
+     "book": "aeneid",
+     "section": "aeneid-body-4"
+    },
+    {
+     "cite": "Virgil Georgics 1.276"
+    },
+    {
+     "cite": "Hesiod Theogony 135",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Apollodorus 1.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.66.1"
+    },
+    {
+     "cite": "Hyginus Pref NB text is corrupt"
+    }
+   ]
   },
   {
    "a": "coeus",
@@ -4949,7 +5659,8 @@
    "first_index": 12,
    "first_section": "aeschylus-body-13",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "earth",
@@ -4960,18 +5671,8 @@
    "first_index": 12,
    "first_section": "aeschylus-body-13",
    "evidence": [],
-   "check": "confirmed"
-  },
-  {
-   "a": "chaos",
-   "relation": "parent_of",
-   "b": "tartarus",
-   "source": "outside",
-   "note": "Wikidata",
-   "first_index": 12,
-   "first_section": "aeschylus-body-13",
-   "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "apollo",
@@ -4982,7 +5683,22 @@
    "first_index": 12,
    "first_section": "aeschylus-body-13",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Pausanias 10.6.3",
+     "book": "pausanias",
+     "section": "pausanias-body-325"
+    },
+    {
+     "cite": "Pausanias 10.6.4",
+     "book": "pausanias",
+     "section": "pausanias-body-325"
+    },
+    {
+     "cite": "Hyginus Fabulae 159"
+    }
+   ]
   },
   {
    "a": "rhea",
@@ -4993,7 +5709,25 @@
    "first_index": 13,
    "first_section": "aeschylus-body-14",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 453",
+     "book": "hesiod",
+     "section": "hesiod-body-18"
+    },
+    {
+     "cite": "Apollodorus 1.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Sic. 5.68.1"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "hera",
@@ -5004,7 +5738,41 @@
    "first_index": 13,
    "first_section": "aeschylus-body-14",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 921",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Homer Iliad 5.699",
+     "book": "iliad",
+     "section": "iliad-body-5"
+    },
+    {
+     "cite": "Aeschylus Frag 282"
+    },
+    {
+     "cite": "Apollodorus 1.13",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Pausanias 2.14.3",
+     "book": "pausanias",
+     "section": "pausanias-body-58"
+    },
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "et al"
+    },
+    {
+     "cite": "Ovid Fasti 5.229"
+    }
+   ]
   },
   {
    "a": "hera",
@@ -5015,7 +5783,35 @@
    "first_index": 13,
    "first_section": "aeschylus-body-14",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 927",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Homeric Hymn 3.310",
+     "book": "hesiod",
+     "section": "hesiod-body-51"
+    },
+    {
+     "cite": "Apollodorus 1.19",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Pausanias 1.20.3",
+     "book": "pausanias",
+     "section": "pausanias-body-20"
+    },
+    {
+     "cite": "Hyginus Pref"
+    },
+    {
+     "cite": "Cicero De Natura Deorum 3.22"
+    }
+   ]
   },
   {
    "a": "zeus",
@@ -5026,23 +5822,13 @@
    "first_index": 13,
    "first_section": "aeschylus-body-14",
    "evidence": [],
-   "check": "confirmed"
-  },
-  {
-   "a": "earth",
-   "relation": "parent_of",
-   "b": "cypris",
-   "source": "outside",
-   "note": "Wikidata",
-   "first_index": 13,
-   "first_section": "aeschylus-body-14",
-   "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "night",
    "relation": "parent_of",
-   "b": "chorus",
+   "b": "chorus-of-the-furies",
    "source": "text",
    "note": "",
    "first_index": 14,
@@ -5065,7 +5851,8 @@
      "sentence": 36
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -5097,7 +5884,30 @@
      "sentence": 26
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 887",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Hesiod Theogony 924",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Apollodorus 1.20",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "others"
+    },
+    {
+     "cite": "innumerable sources"
+    }
+   ]
   },
   {
    "a": "leto",
@@ -5113,7 +5923,103 @@
      "sentence": 35
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 918",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Hesiod Works"
+    },
+    {
+     "cite": "Days 770"
+    },
+    {
+     "cite": "Homer Iliad 1.9",
+     "book": "iliad",
+     "section": "iliad-body-1"
+    },
+    {
+     "cite": "Homer Iliad 21.495",
+     "book": "iliad",
+     "section": "iliad-body-21"
+    },
+    {
+     "cite": "Homer Odyssey 6.100",
+     "book": "odyssey",
+     "section": "odyssey-body-6"
+    },
+    {
+     "cite": "Homer Odyssey 11.318",
+     "book": "odyssey",
+     "section": "odyssey-body-11"
+    },
+    {
+     "cite": "Homeric Hymn 27 to Artemis",
+     "book": "hesiod",
+     "section": "hesiod-body-87"
+    },
+    {
+     "cite": "Pindar Nemean Ode 6",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-32"
+    },
+    {
+     "cite": "Pindar Nemean Ode 8",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-34"
+    },
+    {
+     "cite": "Pindar Processional Song on Delos"
+    },
+    {
+     "cite": "Aeschylus Eumenides 6",
+     "book": "aeschylus",
+     "section": "aeschylus-body-13"
+    },
+    {
+     "cite": "Aeschylus Eumenides 323",
+     "book": "aeschylus",
+     "section": "aeschylus-body-13"
+    },
+    {
+     "cite": "Orphic Hymn 35"
+    },
+    {
+     "cite": "Callimachus Hymn to Artemis"
+    },
+    {
+     "cite": "Hymn to Delos"
+    },
+    {
+     "cite": "Apollodorus 1.21",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Apollodorus 3.46",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    },
+    {
+     "cite": "Pausanias 8.9.1",
+     "book": "pausanias",
+     "section": "pausanias-body-233"
+    },
+    {
+     "cite": "Pausanias 8.53.1. Hyginus Fabulae 9",
+     "book": "pausanias",
+     "section": "pausanias-body-277"
+    },
+    {
+     "cite": "Pausanias 140"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "coeus",
@@ -5124,7 +6030,44 @@
    "first_index": 14,
    "first_section": "aeschylus-body-15",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 404",
+     "book": "hesiod",
+     "section": "hesiod-body-17"
+    },
+    {
+     "cite": "Apollodorus 1.9",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "Homeric Hymn 3.61",
+     "book": "hesiod",
+     "section": "hesiod-body-51"
+    },
+    {
+     "cite": "Pindar Processional Song on Delos"
+    },
+    {
+     "cite": "Sappho Frag 44A"
+    },
+    {
+     "cite": "Orphic Hymn 35"
+    },
+    {
+     "cite": "Ovid Metamorphoses 6.186",
+     "book": "metamorphoses",
+     "section": "metamorphoses-body-56"
+    },
+    {
+     "cite": "Hyginus Fabulae 140"
+    }
+   ]
   },
   {
    "a": "phoebe",
@@ -5135,7 +6078,32 @@
    "first_index": 14,
    "first_section": "aeschylus-body-15",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Aeschylus Eumenides 6",
+     "book": "aeschylus",
+     "section": "aeschylus-body-13"
+    },
+    {
+     "cite": "Aeschylus Eumenides 323",
+     "book": "aeschylus",
+     "section": "aeschylus-body-13"
+    },
+    {
+     "cite": "Hesiod Theogony 404",
+     "book": "hesiod",
+     "section": "hesiod-body-17"
+    },
+    {
+     "cite": "Apollodorus 1.9",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Hyginus Preface"
+    }
+   ]
   },
   {
    "a": "cronus",
@@ -5159,7 +6127,30 @@
      "sentence": 8
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Homer Iliad 15.187",
+     "book": "iliad",
+     "section": "iliad-body-15"
+    },
+    {
+     "cite": "Hesiod Theogony 453",
+     "book": "hesiod",
+     "section": "hesiod-body-18"
+    },
+    {
+     "cite": "Apollodorus 1.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.68.1"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "earth",
@@ -5170,7 +6161,33 @@
    "first_index": 15,
    "first_section": "aeschylus-body-16",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "Hesiod Theogony 135",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Apollodorus 1.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.66.1"
+    },
+    {
+     "cite": "Aeschylus Prometheus Bound 207",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    },
+    {
+     "cite": "Hyginus Pref NB text is corrupt"
+    }
+   ]
   },
   {
    "a": "cronus",
@@ -5181,7 +6198,8 @@
    "first_index": 15,
    "first_section": "aeschylus-body-16",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "cronus",
@@ -5192,7 +6210,30 @@
    "first_index": 15,
    "first_section": "aeschylus-body-16",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Homer Iliad 15.187",
+     "book": "iliad",
+     "section": "iliad-body-15"
+    },
+    {
+     "cite": "Hesiod Theogony 453",
+     "book": "hesiod",
+     "section": "hesiod-body-18"
+    },
+    {
+     "cite": "Apollodorus 1.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.68.1"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "ares",
@@ -5203,7 +6244,8 @@
    "first_index": 15,
    "first_section": "aeschylus-body-16",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "themis",
@@ -5223,12 +6265,29 @@
      "sentence": 227
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Aeschylus Prometheus 8",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    },
+    {
+     "cite": "Aeschylus Prometheus 211",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    },
+    {
+     "cite": "Aeschylus Prometheus 873",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    }
+   ]
   },
   {
    "a": "oceanus",
    "relation": "parent_of",
-   "b": "chorus",
+   "b": "chorus-of-oceanids",
    "source": "text",
    "note": "",
    "first_index": 19,
@@ -5243,12 +6302,13 @@
      "sentence": 1
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "tethys",
    "relation": "parent_of",
-   "b": "chorus",
+   "b": "chorus-of-oceanids",
    "source": "text",
    "note": "",
    "first_index": 19,
@@ -5259,7 +6319,8 @@
      "sentence": 134
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "uranus",
@@ -5275,7 +6336,17 @@
      "sentence": 4
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "Aeschylus Prometheus Bound 207",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    }
+   ]
   },
   {
    "a": "atlas",
@@ -5291,7 +6362,8 @@
      "sentence": 256
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "oceanus",
@@ -5307,7 +6379,8 @@
      "sentence": 134
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "earth",
@@ -5318,7 +6391,17 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 126",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Nonnus Dionysiaca 27.50"
+    }
+   ]
   },
   {
    "a": "uranus",
@@ -5329,7 +6412,12 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Pref"
+    }
+   ]
   },
   {
    "a": "earth",
@@ -5340,7 +6428,8 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "earth",
@@ -5351,7 +6440,33 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "Hesiod Theogony 135",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Apollodorus 1.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.66.1"
+    },
+    {
+     "cite": "Aeschylus Prometheus Bound 207",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    },
+    {
+     "cite": "Hyginus Pref NB text is corrupt"
+    }
+   ]
   },
   {
    "a": "uranus",
@@ -5362,7 +6477,17 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "Aeschylus Prometheus Bound 207",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    }
+   ]
   },
   {
    "a": "earth",
@@ -5373,7 +6498,27 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 135",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Apollodorus 1.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.66.1"
+    },
+    {
+     "cite": "Aeschylus Prometheus Bound 207",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    }
+   ]
   },
   {
    "a": "uranus",
@@ -5384,7 +6529,14 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Aeschylus Prometheus Bound 207",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    }
+   ]
   },
   {
    "a": "uranus",
@@ -5395,7 +6547,8 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "uranus",
@@ -5406,7 +6559,12 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Preface"
+    }
+   ]
   },
   {
    "a": "earth",
@@ -5417,7 +6575,28 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Virgil Georgics 1.276"
+    },
+    {
+     "cite": "Hyginus Preface"
+    },
+    {
+     "cite": "Hesiod Theogony 135",
+     "book": "hesiod",
+     "section": "hesiod-body-15"
+    },
+    {
+     "cite": "Apollodorus 1.2",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.66.1"
+    }
+   ]
   },
   {
    "a": "uranus",
@@ -5428,7 +6607,8 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "uranus",
@@ -5439,7 +6619,12 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Preface"
+    }
+   ]
   },
   {
    "a": "oceanus",
@@ -5450,7 +6635,15 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Nonnus Dionysiaca 38.108"
+    },
+    {
+     "cite": "Hyginus Fabulae 156"
+    }
+   ]
   },
   {
    "a": "tethys",
@@ -5461,7 +6654,12 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Nonnus Dionysiaca 38.108"
+    }
+   ]
   },
   {
    "a": "clymene",
@@ -5472,7 +6670,8 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "clymene",
@@ -5483,7 +6682,8 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "earth",
@@ -5494,7 +6694,33 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Aeschylus Prometheus 353",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    },
+    {
+     "cite": "Aeschylus Seven Against Thebes 516",
+     "book": "aeschylus",
+     "section": "aeschylus-body-28"
+    },
+    {
+     "cite": "Antoninus Liberalis 28"
+    },
+    {
+     "cite": "Ovid Metamorphoses 5.324",
+     "book": "metamorphoses",
+     "section": "metamorphoses-body-49"
+    },
+    {
+     "cite": "Virgil Georgics 1.276"
+    },
+    {
+     "cite": "Nonnus Dionysiaca 1.145"
+    }
+   ]
   },
   {
    "a": "tartarus",
@@ -5505,7 +6731,25 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hyginus Faulaeb 152"
+    },
+    {
+     "cite": "Apollodorus 1.39",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Apollodorus 2.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Hyginus Preface"
+    }
+   ]
   },
   {
    "a": "atlas",
@@ -5516,18 +6760,30 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
-  },
-  {
-   "a": "chaos",
-   "relation": "parent_of",
-   "b": "uranus",
-   "source": "outside",
-   "note": "Wikidata",
-   "first_index": 19,
-   "first_section": "aeschylus-body-20",
-   "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 938",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Hesiod Astronomy Frag 1"
+    },
+    {
+     "cite": "Homeric Hymn 17.3",
+     "book": "hesiod",
+     "section": "hesiod-body-77"
+    },
+    {
+     "cite": "Simonides Frag 555"
+    },
+    {
+     "cite": "Virgil Aeneid 8.134",
+     "book": "aeneid",
+     "section": "aeneid-body-8"
+    }
+   ]
   },
   {
    "a": "oceanus",
@@ -5538,7 +6794,8 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "oceanus",
@@ -5549,7 +6806,17 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Apollodorus 2.1",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Hyginus Preface"
+    }
+   ]
   },
   {
    "a": "iapetus",
@@ -5560,7 +6827,24 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Ovid Metamorphoses 4.627",
+     "book": "metamorphoses",
+     "section": "metamorphoses-body-39"
+    },
+    {
+     "cite": "Hesiod Theogony 371",
+     "book": "hesiod",
+     "section": "hesiod-body-17"
+    },
+    {
+     "cite": "Apollodorus 1.9",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    }
+   ]
   },
   {
    "a": "tethys",
@@ -5571,7 +6855,8 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "tethys",
@@ -5582,7 +6867,17 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Apollodorus 2.1",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Hyginus Preface"
+    }
+   ]
   },
   {
    "a": "clymene",
@@ -5593,7 +6888,8 @@
    "first_index": 19,
    "first_section": "aeschylus-body-20",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "cronus",
@@ -5604,7 +6900,8 @@
    "first_index": 20,
    "first_section": "aeschylus-body-21",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "inachus",
@@ -5620,7 +6917,79 @@
      "sentence": 28
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Aeschylus Prometheus Bound 589",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    },
+    {
+     "cite": "Apollodorus 2.5",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Callimachus Hymn 3.24"
+    },
+    {
+     "cite": "Nicaenetus Lyrcus Frag"
+    },
+    {
+     "cite": "Apollonius Rhodius Caunus Frag"
+    },
+    {
+     "cite": "Parthenius Love Romances 1"
+    },
+    {
+     "cite": "Pausanias 1.25.1",
+     "book": "pausanias",
+     "section": "pausanias-body-25"
+    },
+    {
+     "cite": "Herodotus 1.1.2"
+    },
+    {
+     "cite": "Diodorus Siculus 5.60.4"
+    },
+    {
+     "cite": "Aelian On Animals 11.10"
+    },
+    {
+     "cite": "Virgil Aeneid 7.791",
+     "book": "aeneid",
+     "section": "aeneid-body-7"
+    },
+    {
+     "cite": "Ovid Metamorphoses 1.590",
+     "book": "metamorphoses",
+     "section": "metamorphoses-body-1"
+    },
+    {
+     "cite": "Ovid Heroides 14.105"
+    },
+    {
+     "cite": "Propertius 1.3"
+    },
+    {
+     "cite": "Propertius 2.33A"
+    },
+    {
+     "cite": "Valerius Flaccus 4.345"
+    },
+    {
+     "cite": "Nonnus Dionysiaca 3.257"
+    },
+    {
+     "cite": "Nonnus Dionysiaca 32.65"
+    },
+    {
+     "cite": "Suidas s.v. Io"
+    },
+    {
+     "cite": "Valerius Flaccus 4.374"
+    }
+   ]
   },
   {
    "a": "hesione",
@@ -5636,7 +7005,8 @@
      "sentence": 10
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "io",
@@ -5664,7 +7034,8 @@
      "sentence": 3
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "io",
@@ -5692,7 +7063,8 @@
      "sentence": 12
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "io",
@@ -5712,7 +7084,8 @@
      "sentence": 52
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "oceanus",
@@ -5723,7 +7096,8 @@
    "first_index": 21,
    "first_section": "aeschylus-body-22",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "tethys",
@@ -5734,7 +7108,26 @@
    "first_index": 21,
    "first_section": "aeschylus-body-22",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
+  },
+  {
+   "a": "earth",
+   "relation": "parent_of",
+   "b": "argus",
+   "source": "outside",
+   "note": "Theoi: Aeschylus Suppliants 305",
+   "first_index": 21,
+   "first_section": "aeschylus-body-22",
+   "evidence": [],
+   "check": "",
+   "theoi": [
+    {
+     "cite": "Aeschylus Suppliants 305",
+     "book": "aeschylus",
+     "section": "aeschylus-body-32"
+    }
+   ]
   },
   {
    "a": "cronus",
@@ -5745,7 +7138,30 @@
    "first_index": 22,
    "first_section": "aeschylus-body-23",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Homer Iliad 15.187",
+     "book": "iliad",
+     "section": "iliad-body-15"
+    },
+    {
+     "cite": "Hesiod Theogony 453",
+     "book": "hesiod",
+     "section": "hesiod-body-18"
+    },
+    {
+     "cite": "Apollodorus 1.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.68.1"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "rhea",
@@ -5756,7 +7172,30 @@
    "first_index": 22,
    "first_section": "aeschylus-body-23",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 453",
+     "book": "hesiod",
+     "section": "hesiod-body-18"
+    },
+    {
+     "cite": "Apollodorus 1.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Sic. 5.68.1"
+    },
+    {
+     "cite": "et al"
+    },
+    {
+     "cite": "Homer Iliad 15.187",
+     "book": "iliad",
+     "section": "iliad-body-15"
+    }
+   ]
   },
   {
    "a": "poseidon",
@@ -5767,7 +7206,36 @@
    "first_index": 22,
    "first_section": "aeschylus-body-23",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Apollodorus 3.208",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    },
+    {
+     "cite": "Apollodorus 216",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Hyginus Fabulae 37"
+    },
+    {
+     "cite": "Plato Republic 391c"
+    },
+    {
+     "cite": "Pausanias 1.17.3",
+     "book": "pausanias",
+     "section": "pausanias-body-17"
+    },
+    {
+     "cite": "Plutarch Greek"
+    },
+    {
+     "cite": "Roman Parallel Stories 34"
+    }
+   ]
   },
   {
    "a": "atossa",
@@ -5791,7 +7259,8 @@
      "sentence": 177
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "atossa",
@@ -5815,7 +7284,8 @@
      "sentence": 63
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "athamas",
@@ -5831,7 +7301,26 @@
      "sentence": 26
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Catalogues Frag 38"
+    },
+    {
+     "cite": "Apollodorus 1.80",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Hyginus Fabulae 1-3"
+    },
+    {
+     "cite": "Ovid Heroides 18.136"
+    },
+    {
+     "cite": "Tryphiodorus 218"
+    }
+   ]
   },
   {
    "a": "xerxes",
@@ -5842,7 +7331,8 @@
    "first_index": 23,
    "first_section": "aeschylus-body-24",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -5853,7 +7343,8 @@
    "first_index": 24,
    "first_section": "aeschylus-body-25",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "rhea",
@@ -5864,7 +7355,35 @@
    "first_index": 25,
    "first_section": "aeschylus-body-26",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 453",
+     "book": "hesiod",
+     "section": "hesiod-body-18"
+    },
+    {
+     "cite": "Apollodorus 1.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Sic. 5.68.1"
+    },
+    {
+     "cite": "et al"
+    },
+    {
+     "cite": "Homer Iliad 15.187",
+     "book": "iliad",
+     "section": "iliad-body-15"
+    },
+    {
+     "cite": "Homeric Hymn 2.69",
+     "book": "hesiod",
+     "section": "hesiod-body-46"
+    }
+   ]
   },
   {
    "a": "cronus",
@@ -5875,7 +7394,30 @@
    "first_index": 25,
    "first_section": "aeschylus-body-26",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Homer Iliad 15.187",
+     "book": "iliad",
+     "section": "iliad-body-15"
+    },
+    {
+     "cite": "Hesiod Theogony 453",
+     "book": "hesiod",
+     "section": "hesiod-body-18"
+    },
+    {
+     "cite": "Apollodorus 1.4",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Diodorus Siculus 5.68.1"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "cyrus",
@@ -5886,7 +7428,8 @@
    "first_index": 25,
    "first_section": "aeschylus-body-26",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "laius",
@@ -5910,7 +7453,8 @@
      "sentence": 10
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "oedipus",
@@ -5938,7 +7482,8 @@
      "sentence": 19
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "oedipus",
@@ -5962,7 +7507,8 @@
      "sentence": 19
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "oedipus",
@@ -5982,7 +7528,8 @@
      "sentence": 224
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "oedipus",
@@ -6002,7 +7549,8 @@
      "sentence": 75
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "eteocles",
@@ -6026,7 +7574,8 @@
      "sentence": 219
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "jocasta",
@@ -6037,7 +7586,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "jocasta",
@@ -6048,7 +7598,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "jocasta",
@@ -6059,7 +7610,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "jocasta",
@@ -6070,7 +7622,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "jocasta",
@@ -6081,7 +7634,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "jocasta",
@@ -6092,7 +7646,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "jocasta",
@@ -6103,7 +7658,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -6114,7 +7670,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "hera",
@@ -6125,7 +7682,8 @@
    "first_index": 27,
    "first_section": "aeschylus-body-28",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": []
   },
   {
    "a": "leto",
@@ -6141,7 +7699,103 @@
      "sentence": 33
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Hesiod Theogony 918",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Hesiod Works"
+    },
+    {
+     "cite": "Days 770"
+    },
+    {
+     "cite": "Homer Iliad 1.9",
+     "book": "iliad",
+     "section": "iliad-body-1"
+    },
+    {
+     "cite": "Homer Iliad 21.495",
+     "book": "iliad",
+     "section": "iliad-body-21"
+    },
+    {
+     "cite": "Homer Odyssey 6.100",
+     "book": "odyssey",
+     "section": "odyssey-body-6"
+    },
+    {
+     "cite": "Homer Odyssey 11.318",
+     "book": "odyssey",
+     "section": "odyssey-body-11"
+    },
+    {
+     "cite": "Homeric Hymn 27 to Artemis",
+     "book": "hesiod",
+     "section": "hesiod-body-87"
+    },
+    {
+     "cite": "Pindar Nemean Ode 6",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-32"
+    },
+    {
+     "cite": "Pindar Nemean Ode 8",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-34"
+    },
+    {
+     "cite": "Pindar Processional Song on Delos"
+    },
+    {
+     "cite": "Aeschylus Eumenides 6",
+     "book": "aeschylus",
+     "section": "aeschylus-body-13"
+    },
+    {
+     "cite": "Aeschylus Eumenides 323",
+     "book": "aeschylus",
+     "section": "aeschylus-body-13"
+    },
+    {
+     "cite": "Orphic Hymn 35"
+    },
+    {
+     "cite": "Callimachus Hymn to Artemis"
+    },
+    {
+     "cite": "Hymn to Delos"
+    },
+    {
+     "cite": "Apollodorus 1.21",
+     "book": "apollodorus",
+     "section": "apollodorus-body-1"
+    },
+    {
+     "cite": "Apollodorus 3.46",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    },
+    {
+     "cite": "Pausanias 8.9.1",
+     "book": "pausanias",
+     "section": "pausanias-body-233"
+    },
+    {
+     "cite": "Pausanias 8.53.1. Hyginus Fabulae 9",
+     "book": "pausanias",
+     "section": "pausanias-body-277"
+    },
+    {
+     "cite": "Pausanias 140"
+    },
+    {
+     "cite": "et al"
+    }
+   ]
   },
   {
    "a": "creon",
@@ -6157,7 +7811,8 @@
      "sentence": 83
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "actor",
@@ -6173,7 +7828,8 @@
      "sentence": 116
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -6193,7 +7849,25 @@
      "sentence": 146
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": [
+    {
+     "cite": "Pindar Olympian 9",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-9"
+    },
+    {
+     "cite": "Pindar Olympian 13",
+     "book": "pindar-odes",
+     "section": "pindar-odes-body-13"
+    },
+    {
+     "cite": "Pindar Frag 30"
+    },
+    {
+     "cite": "Hyginus Preface"
+    }
+   ]
   },
   {
    "a": "ares",
@@ -6204,7 +7878,14 @@
    "first_index": 29,
    "first_section": "aeschylus-body-30",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Apollodorus 3.109",
+     "book": "apollodorus",
+     "section": "apollodorus-body-20"
+    }
+   ]
   },
   {
    "a": "antigone",
@@ -6220,7 +7901,8 @@
      "sentence": 223
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -6244,7 +7926,39 @@
      "sentence": 12
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Aeschylus Prometheus Bound 589",
+     "book": "aeschylus",
+     "section": "aeschylus-body-20"
+    },
+    {
+     "cite": "Apollodorus 2.5",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Strabo 10.1.3"
+    },
+    {
+     "cite": "Aelian On Animals 11.10"
+    },
+    {
+     "cite": "Aelian On Animals 145"
+    },
+    {
+     "cite": "Ovid Metamorphoses 1.750",
+     "book": "metamorphoses",
+     "section": "metamorphoses-body-1"
+    },
+    {
+     "cite": "Nonnus Dionysiaca 3.257"
+    },
+    {
+     "cite": "Nonnus Dionysiaca 32.65"
+    }
+   ]
   },
   {
    "a": "io",
@@ -6260,7 +7974,8 @@
      "sentence": 9
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "belus",
@@ -6280,7 +7995,8 @@
      "sentence": 94
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "belus",
@@ -6300,7 +8016,8 @@
      "sentence": 98
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "aegyptus",
@@ -6328,12 +8045,13 @@
      "sentence": 42
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "danaus",
    "relation": "parent_of",
-   "b": "chorus",
+   "b": "chorus-of-the-danaids",
    "source": "text",
    "note": "",
    "first_index": 31,
@@ -6356,7 +8074,8 @@
      "sentence": 13
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "hera",
@@ -6376,7 +8095,8 @@
      "sentence": 58
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "poseidon",
@@ -6387,7 +8107,17 @@
    "first_index": 31,
    "first_section": "aeschylus-body-32",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Apollodorus 2.10",
+     "book": "apollodorus",
+     "section": "apollodorus-body-10"
+    },
+    {
+     "cite": "Hyginus Fabulae 157"
+    }
+   ]
   },
   {
    "a": "apollo",
@@ -6403,7 +8133,14 @@
      "sentence": 27
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Aeschylus Suppliant Women 260",
+     "book": "aeschylus",
+     "section": "aeschylus-body-32"
+    }
+   ]
   },
   {
    "a": "palaechthon",
@@ -6419,7 +8156,8 @@
      "sentence": 22
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "epaphus",
@@ -6435,7 +8173,8 @@
      "sentence": 86
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "libya",
@@ -6446,18 +8185,25 @@
    "first_index": 32,
    "first_section": "aeschylus-body-33",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
-   "a": "agenor",
+   "a": "aegyptus",
    "relation": "parent_of",
-   "b": "argus",
+   "b": "chorus-of-the-danaids",
    "source": "outside",
-   "note": "Wikidata",
-   "first_index": 32,
-   "first_section": "aeschylus-body-33",
-   "evidence": [],
-   "check": "confirmed"
+   "note": "",
+   "first_index": 33,
+   "first_section": "aeschylus-body-34",
+   "evidence": [
+    {
+     "section": "aeschylus-body-34",
+     "sentence": 45
+    }
+   ],
+   "check": "",
+   "theoi": null
   },
   {
    "a": "cypris",
@@ -6473,7 +8219,8 @@
      "sentence": 44
     }
    ],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": null
   },
   {
    "a": "cypris",
@@ -6489,7 +8236,8 @@
      "sentence": 35
     }
    ],
-   "check": ""
+   "check": "",
+   "theoi": null
   },
   {
    "a": "zeus",
@@ -6500,7 +8248,12 @@
    "first_index": 36,
    "first_section": "aeschylus-body-37",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Diodorus Siculus 5.48.2"
+    }
+   ]
   },
   {
    "a": "cypris",
@@ -6511,46 +8264,46 @@
    "first_index": 36,
    "first_section": "aeschylus-body-37",
    "evidence": [],
-   "check": "confirmed"
+   "check": "confirmed",
+   "theoi": [
+    {
+     "cite": "Aeschylus Suppliants 1035",
+     "book": "aeschylus",
+     "section": "aeschylus-body-32"
+    },
+    {
+     "cite": "Hesiod Theogony 933",
+     "book": "hesiod",
+     "section": "hesiod-body-22"
+    },
+    {
+     "cite": "Hyginus Preface"
+    }
+   ]
   }
  ],
  "report": {
   "annotated_sections": 37,
   "raw_character_entries": 387,
-  "people": 144,
-  "relationships": 163,
+  "people": 148,
+  "relationships": 160,
   "unmatched_relationship_names": [
    "Althaea",
    "Thestius",
    "cow",
    "heifer"
   ],
-  "outside_links": 96,
+  "outside_links": 93,
   "outside_links_dropped_as_invalid": 0,
   "links_removed_by_curation": 0,
   "third_parents_dropped": [
-   "Aegyptus parent_of Chorus",
    "Iapetus parent_of Prometheus"
   ],
   "links_added_by_curation": 0,
   "added_links_refused": [],
   "outside_only_people": 24,
-  "never_shown": 7,
+  "never_shown": 8,
   "merges_held_back": [
-   {
-    "names": [
-     "chorus",
-     "elders"
-    ],
-    "sections": 3
-   },
-   {
-    "names": [
-     "chorus",
-     "furies"
-    ],
-    "sections": 3
-   },
    {
     "names": [
      "atreidae",
@@ -6567,22 +8320,8 @@
    },
    {
     "names": [
-     "chorus",
-     "danaans"
-    ],
-    "sections": 1
-   },
-   {
-    "names": [
      "earth",
      "themis"
-    ],
-    "sections": 1
-   },
-   {
-    "names": [
-     "erinyes",
-     "furies"
     ],
     "sections": 1
    }

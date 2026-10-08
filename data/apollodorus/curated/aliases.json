@@ -1,0 +1,41 @@
+{
+ "merge": [],
+ "separate": [],
+ "remove": [],
+ "add": [
+  [
+   "Asia",
+   "parent_of",
+   "Epimetheus",
+   "Apollodorus 1.2.3: to Iapetus and Asia were born Atlas, Prometheus, Epimetheus and Menoetius"
+  ],
+  [
+   "Asia",
+   "parent_of",
+   "Atlas",
+   "Apollodorus 1.2.3: to Iapetus and Asia were born Atlas, Prometheus, Epimetheus and Menoetius"
+  ],
+  [
+   "Sky",
+   "parent_of",
+   "Mnemosyne",
+   "Apollodorus 1.1.3: Sky begat the Titanesses, among them Mnemosyne"
+  ],
+  [
+   "Iapetus",
+   "parent_of",
+   "Menoetius, son of Iapetus",
+   "Apollodorus 1.2.3: to Iapetus and Asia were born Atlas, Prometheus, Epimetheus and Menoetius"
+  ],
+  [
+   "Asia",
+   "parent_of",
+   "Menoetius, son of Iapetus",
+   "Apollodorus 1.2.3: to Iapetus and Asia were born Atlas, Prometheus, Epimetheus and Menoetius"
+  ]
+ ],
+ "about": {},
+ "wikidata": {
+  "Menoetius, father of Patroclus": "Q1920680"
+ }
+}

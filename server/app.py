@@ -560,6 +560,6 @@ def get_tree(slug: str, upto: str | None = None, spoilers: bool = True, outside:
         "position": upto, "spoilers": spoilers, "hidden": hidden, "current": here,
         "people": [person(p) for p in people.values()], "others": [person(p) for p in others],
         "relationships": [{"a": e["a"], "relation": e["relation"], "b": e["b"], "source": e["source"], "note": e["note"],
-                           "first_section": e["first_section"],
+                           "first_section": e["first_section"], "theoi": e.get("theoi"),
                            "evidence": [v for v in e["evidence"] if order[v["section"]] <= pos]} for e in links],
     }

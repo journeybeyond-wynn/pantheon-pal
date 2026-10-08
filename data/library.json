@@ -11456,8 +11456,8 @@
     },
     {
      "book": "pausanias",
-     "id": "hercules-idaean-dactyl",
-     "name": "Hercules, Idaean Dactyl"
+     "id": "hercules-the-idaean-dactyl",
+     "name": "Hercules the Idaean Dactyl"
     }
    ],
    "moments": [
@@ -11476,14 +11476,6 @@
      "section": "hesiod-body-13",
      "title": "The Idaean Dactyls",
      "what": "The Idaean Dactyls teach iron smelting and tempering in Crete."
-    },
-    {
-     "book": "pausanias",
-     "book_title": "Pausanias' description of Greece, Volume I. + II.",
-     "name": "Hercules, Idaean Dactyl",
-     "section": "pausanias-body-141",
-     "title": "Book 4 › Chapter 33",
-     "what": "As an infant Idaean Dactyl Hercules, he steals Zeus away from Cronos's fear on Ithome."
     }
    ]
   },
@@ -12027,48 +12019,6 @@
      "section": "aeneid-body-5",
      "title": "Book 5",
      "what": "Challenges all to a boxing match and is beaten by Entellus."
-    }
-   ]
-  },
-  {
-   "wikidata": "Q10264223",
-   "label": "Darius",
-   "members": [
-    {
-     "book": "aeschylus",
-     "id": "darius",
-     "name": "Darius"
-    },
-    {
-     "book": "pausanias",
-     "id": "darius",
-     "name": "Darius"
-    }
-   ],
-   "moments": [
-    {
-     "book": "aeschylus",
-     "book_title": "Aeschylus",
-     "name": "Darius",
-     "section": "aeschylus-body-26",
-     "title": "5. The Persians › Scene 3",
-     "what": "Darius's ghost is summoned, blames Xerxes' hubris, foretells Plataea and warns against invading Greece."
-    },
-    {
-     "book": "pausanias",
-     "book_title": "Pausanias' description of Greece, Volume I. + II.",
-     "name": "Darius",
-     "section": "pausanias-body-89",
-     "title": "Book 3 › Chapter 7",
-     "what": "Darius receives the exiled Demaratus in Persia."
-    },
-    {
-     "book": "pausanias",
-     "book_title": "Pausanias' description of Greece, Volume I. + II.",
-     "name": "Darius",
-     "section": "pausanias-body-176",
-     "title": "Book 6 › Chapter 5",
-     "what": "Darius lures Polydamas to Susa."
     }
    ]
   },
@@ -15704,8 +15654,8 @@
    "members": [
     {
      "book": "aeschylus",
-     "id": "furies",
-     "name": "Furies"
+     "id": "chorus-of-the-furies",
+     "name": "Chorus of the Furies"
     },
     {
      "book": "argonautica",
@@ -24597,8 +24547,8 @@
    "members": [
     {
      "book": "apollodorus",
-     "id": "menoetius",
-     "name": "Menoetius"
+     "id": "menoetius-father-of-patroclus",
+     "name": "Menoetius, father of Patroclus"
     },
     {
      "book": "iliad",
