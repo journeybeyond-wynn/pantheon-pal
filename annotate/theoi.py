@@ -260,6 +260,9 @@ _decisions_file = ROOT / "data" / "theoi_decisions.json"
 _decided = json.loads(_decisions_file.read_text(encoding="utf-8")) if _decisions_file.exists() else {}
 REMOVE = {tuple(pair) for pair in _decided.get("remove", [])}                       # wrong in every book
 KEEP = {(a, b, book) for a, b, books in _decided.get("keep", []) for book in books}   # right in those books only
+KEPT = defaultdict(set)                       # (parent, child) -> the books where a "keep" decision holds
+for _a, _b, _book in KEEP:
+    KEPT[(_a, _b)].add(_book)
 
 # English names a translation gives Greek gods and personifications, with the Greek names Theoi uses for them.
 ENGLISH = {"night": "nyx", "earth": "gaia ge", "heaven": "ouranos", "sky": "ouranos", "dawn": "eos", "sun": "helios",
@@ -331,7 +334,11 @@ def check(slug: str, pages: dict, ids: dict[str, list[str]]) -> dict:
     # none of that child's parents is removed.
     other_tradition = {e["b"] for e in tree["relationships"] if e["relation"] == "parent_of" and e.get("note") != "Wikidata"
                        and fam(e["b"])["parents"] and not listed_parent(people[e["a"]], people[e["b"]])}
-    report = {"confirmed": [], "wrong": [], "review": [], "unclear": [], "unchecked": 0, "added": [], "kept": 0}
+    report = {"confirmed": [], "wrong": [], "review": [], "crowded": [], "unclear": [], "unchecked": 0, "added": [], "kept": 0}
+    parents_in_tree = defaultdict(set)
+    for e in tree["relationships"]:
+        if e["relation"] == "parent_of":
+            parents_in_tree[e["b"]].add(e["a"])
     remove, add = [], []
     for e in tree["relationships"]:
         if e["relation"] not in ("parent_of", "spouse_of", "sibling_of"):
@@ -349,25 +356,48 @@ def check(slug: str, pages: dict, ids: dict[str, list[str]]) -> dict:
         for x in listed:
             cites += [c for c in x["cites"] if c not in cites]
         label = [a["name"], e["relation"], b["name"]]
-        if (a["name"], b["name"]) in REMOVE:           # judged wrong by hand: removed whether or not Theoi has a page
+        pairs = [(a["name"], b["name"])] + ([(b["name"], a["name"])] if e["relation"] != "parent_of" else [])
+        if any(pair in REMOVE for pair in pairs):      # judged wrong by hand: removed whether or not Theoi has a page
             report["wrong"].append(label + [e["source"], "decided after review", [], []])
+            remove.append(label)
+            continue
+        # A link brought in from another book that is right only in the books a decision names (Mars, father of the
+        # Iliad's Ascalaphus, is not the father of the underworld one).
+        if e.get("from_books") and (a["name"], b["name"]) in KEPT and slug not in KEPT[(a["name"], b["name"])]:
+            report["wrong"].append(label + [e["source"], "kept only for " + ", ".join(sorted(KEPT[(a["name"], b["name"])])), [], []])
             remove.append(label)
             continue
         if listed:
             report["confirmed"].append(label + [cites])
             continue
-        if e["relation"] != "parent_of" or not fb["parents"]:
+        # A spouse or sibling Theoi does not list, where it lists that person's consorts or siblings, is for review.
+        # Siblings who share a parent in this tree are left alone (Theoi's lists of siblings are seldom complete).
+        if e["relation"] != "parent_of":
+            kind = "consorts" if e["relation"] == "spouse_of" else "siblings"
+            theirs = sorted({p["name"] for x in fa[kind] + fb[kind] for p in x["people"]})
+            if not theirs or (e["relation"] == "sibling_of" and parents_in_tree[a["id"]] & parents_in_tree[b["id"]]):
+                report["unchecked"] += 1
+            elif any((x, y, slug) in KEEP for x, y in pairs):
+                report["kept"] += 1
+            else:
+                report["review"].append(label + [e["source"], e.get("note", ""), theirs, fa["pages"] + fb["pages"]])
+            continue
+        if not fb["parents"]:
             report["unchecked"] += 1
             continue
+        theirs = sorted({p["name"] for x in fb["parents"] for p in x["people"]})
         mentioned = {skeleton(n) for n in [a["name"], *a["aliases"]]} | \
                     {tid for q in a.get("wikidata", []) for tid in ids.get(q, [])}
-        # A link the book states may be a variant told in the page's text; a link from Wikidata or from outside the
-        # book has no such claim, and a great god (Zeus) is named on almost every page, so for those only the
-        # listed parents count.
+        # A link the book states may be a variant told in the page's text: named on the page but not as a parent, it
+        # is listed for review (Asterion on Aphrodite's page is the father of her nurse Acræa, not hers). A link from
+        # Wikidata or from outside the book has no such claim, and a great god (Zeus) is named on almost every page,
+        # so for those only the listed parents count.
         if e["source"] == "text" and mentioned & fb["named"]:
-            report["unclear"].append(label + [e["source"]])
+            if (a["name"], b["name"], slug) in KEEP:
+                report["kept"] += 1
+            else:
+                report["review"].append(label + [e["source"], "named on the page, not as a parent", theirs, fb["pages"]])
             continue
-        theirs = sorted({p["name"] for x in fb["parents"] for p in x["people"]})
         # A link the book's own text states is only listed for review: the Theoi page may be about a namesake (the
         # Iliad's Ascalaphus, son of Ares, is not the underworld Ascalaphus, son of Acheron). A link added from
         # Wikidata or from outside the book is removed.
@@ -387,6 +417,40 @@ def check(slug: str, pages: dict, ids: dict[str, list[str]]) -> dict:
             continue
         report["wrong"].append(label + [e["source"], e.get("note", ""), theirs, fb["pages"]])
         remove.append(label)
+    # A child with three or more parents, or a parent who is also the child's own descendant, usually means two people
+    # of one name were joined (two Zeuxidamuses) or a sentence was misread ("whose grandsire was Pilumnus"). Theoi
+    # cannot see that when the child has no page, so every such parent link it did not confirm is listed for review.
+    gone = {tuple(r) for r in remove}
+    parents_of, children_of = defaultdict(list), defaultdict(set)
+    for e in tree["relationships"]:
+        if e["relation"] == "parent_of" and (people[e["a"]]["name"], "parent_of", people[e["b"]]["name"]) not in gone:
+            parents_of[e["b"]].append(e)
+            children_of[e["a"]].add(e["b"])
+
+    def below(start: str, target: str) -> bool:
+        """Is target among start's descendants?"""
+        seen, todo = set(), [start]
+        while todo:
+            pid = todo.pop()
+            if pid == target:
+                return True
+            if pid not in seen:
+                seen.add(pid)
+                todo += children_of.get(pid, ())
+        return False
+
+    settled = {tuple(r[:3]) for r in report["confirmed"] + report["review"]}
+    for child, es in parents_of.items():
+        for e in es:
+            a, b = people[e["a"]], people[e["b"]]
+            label = [a["name"], "parent_of", b["name"]]
+            loop = below(b["id"], a["id"])
+            if (len(es) < 3 and not loop) or tuple(label) in settled or (a["name"], b["name"], slug) in KEEP:
+                continue
+            why = f"{a['name']} is also {b['name']}'s descendant" if loop else f"one of {len(es)} parents"
+            if e.get("check") == "differs":
+                why += "; Wikidata gives another parent"
+            report["crowded"].append(label + [e["source"], why, sorted(people[x["a"]]["name"] for x in es if x is not e)])
     # In place of a wrong parent, the parents Theoi cites to this same book, if they are in its tree.
     for a_name, _, b_name in remove:
         b = next(p for p in tree["people"] if p["name"] == b_name)
@@ -406,6 +470,7 @@ def check(slug: str, pages: dict, ids: dict[str, list[str]]) -> dict:
             "report": {"links": len(report["confirmed"]) + len(report["wrong"]) + len(report["review"]) + len(report["unclear"])
                        + report["unchecked"],
                        "confirmed": len(report["confirmed"]), "wrong": report["wrong"], "review": report["review"],
+                       "crowded": report["crowded"],
                        "unclear": report["unclear"],
                        "unchecked": report["unchecked"], "added": add, "kept_by_decision": report["kept"]}}
 
@@ -452,6 +517,7 @@ def main() -> None:
         r = result["report"]
         print(f"\n{slug}: {r['links']} family links; {r['confirmed']} confirmed by Theoi, {len(r['wrong'])} wrong (removed), "
               f"{len(r['review'])} from the book or the outside step that Theoi does not list (for review, kept), "
+              f"{len(r['crowded'])} in crowded families or loops (for review, kept), "
               f"{len(r['unclear'])} unclear (named on the page but not as a parent), {r['unchecked']} not checked; "
               f"{len(r['added'])} parents added in place of wrong ones")
         for a, rel, b, source, note, theirs, pages in r["wrong"]:
@@ -459,6 +525,8 @@ def main() -> None:
         for a, rel, b, source, note, theirs, pages in r["review"]:
             why = "the book says so" if source == "text" else f"from outside the book: {note}" if note else "from outside the book"
             print(f"   review: {a} {rel.replace('_', ' ')} {b}  [{why}]  Theoi ({', '.join(pages)}): {', '.join(theirs)}")
+        for a, rel, b, source, why, others in r["crowded"]:
+            print(f"   review: {a} parent of {b}  [{why}; other parents: {', '.join(others)}]")
         for row in r["added"]:
             print(f"   added: {row[0]} parent of {row[2]}  ({row[3]})")
         if args.yes:
