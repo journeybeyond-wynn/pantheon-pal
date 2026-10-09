@@ -1,0 +1,2904 @@
+{
+ "source": "Theoi Project (theoi.com), family listings with their ancient citations",
+ "remove": [
+  [
+   "Chaos",
+   "parent_of",
+   "Gaia"
+  ],
+  [
+   "Chaos",
+   "parent_of",
+   "Uranus"
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Æolus"
+  ],
+  [
+   "Celæno",
+   "parent_of",
+   "Balius"
+  ],
+  [
+   "Mars",
+   "parent_of",
+   "Ascalaphus"
+  ]
+ ],
+ "add": [],
+ "confirmed": [
+  [
+   "Jove",
+   "parent_of",
+   "Venus",
+   []
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Uranus",
+   [
+    "Hesiod Theogony 126",
+    "Nonnus Dionysiaca 27.50"
+   ]
+  ],
+  [
+   "Maia",
+   "parent_of",
+   "Mercury",
+   [
+    "Hesiod Theogony 938",
+    "Hesiod Astronomy Frag 1",
+    "Homeric Hymns 4",
+    "Homeric Hymns 17",
+    "Alcaeus Frag 308",
+    "Simonides Frag 555",
+    "Aeschylus Libation Bearers 683",
+    "Frag 212",
+    "Apollodorus 3.112",
+    "Philostratus Elder 1.26",
+    "Ovid Fasti 5.79"
+   ]
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Thaumas",
+   [
+    "Hesiod Theog. 232",
+    "Apollodorus 1.10"
+   ]
+  ],
+  [
+   "Dione",
+   "parent_of",
+   "Venus",
+   []
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Triton",
+   []
+  ],
+  [
+   "Uranus",
+   "parent_of",
+   "Dione",
+   [
+    "Hyginus Preface",
+    "Apollodorus 1.2"
+   ]
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Dione",
+   [
+    "Hyginus Preface",
+    "Apollodorus 1.2",
+    "Hyginus Pref NB text is corrupt"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Tantalus",
+   [
+    "Strabo 12.8.21",
+    "Pausanias 2.22.3",
+    "Antoninus Liberalis 36",
+    "Hyginus Fabulae 155",
+    "Nonnus Dionysiaca 1.145",
+    "Nonnus Dionysiaca 48.729",
+    "Suidas",
+    "Diodorus Siculus 4.74.1"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Ate",
+   [
+    "Homer Iliad 19.85"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Justice",
+   [
+    "Aeschylus Libation Bearers 939",
+    "Aeschylus Seven 667",
+    "Pindar Olympian 9",
+    "Pindar Olympian 13",
+    "Pindar Frag 30",
+    "Hyginus Preface"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Epaphus",
+   [
+    "Aeschylus Prometheus Bound 589",
+    "Apollodorus 2.5",
+    "Strabo 10.1.3",
+    "Aelian On Animals 11.10",
+    "Aelian On Animals 145",
+    "Ovid Metamorphoses 1.750",
+    "Nonnus Dionysiaca 3.257",
+    "Nonnus Dionysiaca 32.65"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Harmonia",
+   [
+    "Diodorus Siculus 5.48.2"
+   ]
+  ],
+  [
+   "Venus",
+   "parent_of",
+   "Harmonia",
+   [
+    "Aeschylus Suppliants 1035"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Persephone",
+   [
+    "Hesiod Theogony 912",
+    "Homeric Hymn 2 to Demeter",
+    "Apollodorus 1.29",
+    "Pausanias",
+    "Ovid Metamorphoses 5.501",
+    "Ovid Fasti 4.575",
+    "Nonnus Dionysiaca 5.562",
+    "et al",
+    "Apollodorus 1.13"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Clio",
+   [
+    "Hesiod Theogony 75",
+    "Apollodorus 1.13",
+    "Diodorus Siculus 4.7.1",
+    "Orphic Hymn 76",
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Calliope",
+   [
+    "Alcman Frag",
+    "Hyginus Astronomica 2.7",
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 76",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Apollodorus 1.13",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Melpomene",
+   [
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 76",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Apollodorus 1.13",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Euterpe",
+   [
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 76",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Apollodorus 1.13",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Thalia",
+   [
+    "Hesiod Theogony 907",
+    "Apollodorus 1.13",
+    "Callimachus Aetia Frag 6",
+    "Hyginus Pref",
+    "Orphic Hymn 60",
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 76",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Juno",
+   "parent_of",
+   "Ilithyia",
+   [
+    "Homer Iliad 11.270",
+    "Pindar Nemean Ode 7",
+    "Pausanias 1.18.5",
+    "Diodorus Siculus 4.9.4",
+    "Aelian On Animals 7.15",
+    "Nonnus Dionysiaca 48.794"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Tityus",
+   [
+    "Apollodorus 1.22",
+    "Apollodorus 1.23"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Rhode",
+   [
+    "Apollodorus 1.28",
+    "Suidas s.v. Polyphe"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Myrmidon",
+   [
+    "Clement Exhortations"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Endymion",
+   [
+    "Clement Recognitions 10.21",
+    "Apollodorus 1.56"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Aethlius",
+   [
+    "Hesiod Catalogues Frag 8",
+    "Pausanias 5.1.3",
+    "Hyginus Fabulae 155"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Pirithous",
+   [
+    "Plato Republic 391c",
+    "Hyginus Fabulae 155"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Argus",
+   [
+    "Hesiod Great Eoiae Frag 1",
+    "Pausanais 2.26.3",
+    "Apollodorus 2.2",
+    "Pausanias 2.22.5",
+    "Hyginus Fabulae 155"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Pegasus",
+   [
+    "Hesiod Theogony 278",
+    "Apollodorus 2.32",
+    "Apollodorus 2.42",
+    "Hyginus Fabulae 151",
+    "Astronomica 2.18",
+    "Ovid Metamorphoses 4.781",
+    "Ovid Metamorphoses 6.119"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Perseus",
+   [
+    "Homer Iliad 14.319",
+    "numerous others"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Antaeus",
+   []
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Busiris",
+   [
+    "Apollodorus 2.5.11",
+    "Plutarch Parallel Stories 38",
+    "Hyginus Fabulae 56"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Dionysus",
+   [
+    "Cicero De Natura Deorum 3.21-23"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Zethus",
+   [
+    "Homer Odyssey 11.260",
+    "Apollodorus 3.41",
+    "Pausanias 2.6.1",
+    "Hyginus Fabulae 7"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Amphion",
+   [
+    "Homer Odyssey 11.260",
+    "Apollodorus 3.41",
+    "Pausanias 2.6.1",
+    "Hyginus Fabulae 7"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Arion",
+   [
+    "Apollodorus 3.77",
+    "Pausanias 8.25.5",
+    "Statius Thebaid 6.301"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Periclymenus",
+   [
+    "Hyginus Fabulae 157",
+    "Seneca Medea 634"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Arcas",
+   [
+    "Hesiod Astronomy Frag 3",
+    "Apollodorus 3.100",
+    "Pausanias 8.3.6",
+    "Hyginus Fabulae 176",
+    "Hyginus Astonomica 2.1",
+    "Ovid Metamorphoses 2.409"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Lacedaemon",
+   [
+    "Apollodorus 3.116",
+    "Pausanias 3.12",
+    "Hyginus Fabulae 155",
+    "Hyginus Astronomica 2.21",
+    "Nonnus Dionysiaca 32.65"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Dardanus",
+   [
+    "Apollodorus 3.138",
+    "Quintus Smyrnaeus 13.545",
+    "Lycophron 71",
+    "Hyginus Fabulae 155",
+    "Ovid Fasti 4.31",
+    "Virgil Aeneid 8.134",
+    "Diodorus Siculus 5.48.2"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Aeacus",
+   [
+    "Hesiod Catalogues Frag 19",
+    "Aeschylus Frag 50",
+    "various other sources",
+    "Hesiod Catalogues of Women Frag 53",
+    "Pindar Isthmian 8",
+    "Pindar Nemean 7",
+    "Corinna Frag 654",
+    "Bacchylides Frag 9",
+    "Apollodorus 3.156",
+    "Pausanias 2.29.2",
+    "Diodorus Siculus 4.72.1",
+    "Antoninus Liberalis 38",
+    "Hyginus Fabulae 52",
+    "Nonnus Dionysiaca 13.201",
+    "Hesiod Catalogues 19A",
+    "Apollodorus",
+    "et al"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Iasion",
+   [
+    "Catalogues of Women Frag 102",
+    "Apollodorus 3.138",
+    "Diodorus Siculus 5.48.2",
+    "Hyginus Fab 250",
+    "Hyginus Fabulae 250"
+   ]
+  ],
+  [
+   "Thetis",
+   "parent_of",
+   "Achilles",
+   [
+    "Homer Iliad",
+    "Odyssey",
+    "Hesiod Theogony",
+    "Alcaeus",
+    "The Aegimius",
+    "Apollodorus",
+    "Plato Republic 391c",
+    "Ovid Metamorphoses",
+    "et al"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Corinthus",
+   [
+    "Pausanias 2.1.1"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Glaucus",
+   [
+    "Euripides Orestes 362",
+    "Other references"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Terpsichore",
+   [
+    "Hesiod Theogony 75",
+    "Apollodorus 1.13",
+    "Diodorus Siculus 4.7.1",
+    "Orphic Hymn 76",
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Venus",
+   "parent_of",
+   "Himerus",
+   [
+    "Ovid Fasti 4.1"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Aglaea",
+   [
+    "Hesiod Theogony 907",
+    "Apollodorus 1.13",
+    "Callimachus Aetia Frag 6",
+    "Hyginus Pref",
+    "Orphic Hymn 60"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Macedon",
+   [
+    "Hesiod Catalogues Frag 3"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Bellerophon",
+   [
+    "Hesiod Catalogues Frag 7",
+    "Hyginus Fab 157",
+    "Nonnus Dionysiaca 11.142"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Sarpedon",
+   [
+    "Hesiod Catalogues 19A",
+    "Apollodorus",
+    "et al",
+    "Catalogues of Women Frag 19A",
+    "Apollodorus 3.1.1",
+    "Homer Iliad 6.205"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Nemesis",
+   [
+    "Homerica Cypria Frag 8"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Augeas",
+   [
+    "Apollodorus 2.5.5"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Xanthus",
+   [
+    "Homer Iliad",
+    "Philostratus Elder 2.8",
+    "Ptolemy Hephaestion 4"
+   ]
+  ],
+  [
+   "Juno",
+   "parent_of",
+   "Pasithea",
+   [
+    "Nonnus Dionysiaca 31.103"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Proteus",
+   [
+    "Apollodorus 2.105",
+    "Lycophron 112"
+   ]
+  ],
+  [
+   "Mercury",
+   "parent_of",
+   "Daphnis",
+   [
+    "Theocritus Idylls 1.78",
+    "Parthenius 29",
+    "Aelian Miscellany 10.18"
+   ]
+  ],
+  [
+   "Mercury",
+   "parent_of",
+   "Hermaphroditus",
+   []
+  ],
+  [
+   "Venus",
+   "parent_of",
+   "Hermaphroditus",
+   []
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Urania",
+   [
+    "Hesiod Theogony 75",
+    "Apollodorus 1.13",
+    "Diodorus Siculus 4.7.1",
+    "Orphic Hymn 76",
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Venus",
+   "parent_of",
+   "Priapus",
+   [
+    "Pausanias 9.31.2",
+    "Diodorus Siculus 4.6.1",
+    "Tzetzes on Lycophron 831"
+   ]
+  ],
+  [
+   "Venus",
+   "parent_of",
+   "Anteros",
+   [
+    "Ovid Fasti 4.1",
+    "Seneca Phaedra 274"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Euphrosyne",
+   [
+    "Hesiod Theogony 907",
+    "Apollodorus 1.13",
+    "Pausanias 9.35.1",
+    "Callimachus Aetia Frag 6",
+    "Hyginus Pref",
+    "Orphic Hymn 60"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Thalia",
+   [
+    "Hesiod Theogony 907",
+    "Apollodorus 1.13",
+    "Callimachus Aetia Frag 6",
+    "Hyginus Pref",
+    "Orphic Hymn 60",
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 76",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Venus",
+   "parent_of",
+   "Peitho",
+   [
+    "Sappho Frag 96",
+    "Sappho Frag 200",
+    "Aeschylus Suppliant Women 1039"
+   ]
+  ],
+  [
+   "Venus",
+   "parent_of",
+   "Rhode",
+   [
+    "Pindar Olympian Ode 7"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Eunomia",
+   [
+    "Pindar Olympian 9",
+    "Pindar Olympian 13",
+    "Pindar Frag 30",
+    "Hyginus Preface"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Helen",
+   [
+    "Apollodorus 1.49",
+    "Hyginus Fabulae 155",
+    "Homerica Cypria Frag 8",
+    "Apolllodoros 3.127f",
+    "Hyginus Astronomy 2.8",
+    "various sources"
+   ]
+  ],
+  [
+   "Leda",
+   "parent_of",
+   "Helen",
+   [
+    "Homer Iliad 3.237",
+    "Homer Iliad 426",
+    "Clement Recognitions 10.22",
+    "Hyginus Fabulae 224",
+    "Fulgentius 2.13",
+    "Apollodorus 3.10.7",
+    "Hyginus Fabulae 77",
+    "Valerius Flaccus 1.426",
+    "Diodorus Siculus 4.63.2",
+    "Lucian Judgement of Paris",
+    "Hyginus Fabulae 240",
+    "Astronomica 1.8",
+    "Ovid Heroides 16.1",
+    "Ovid Heroides 17.43",
+    "Dictys Cretensis 1.9"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Pollux",
+   [
+    "Pindar Nemean Ode 10",
+    "Hyginus Fabulae 77",
+    "Hyginus Fabulae 80",
+    "and other sources",
+    "Hesiod Catalogues of Women Frag 66",
+    "Homeric Hymn 32",
+    "Alcaeus Frag 34",
+    "Terpander Frag 5",
+    "Hyginus Fabulae 14",
+    "et al"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Castor",
+   [
+    "Hesiod Catalogues of Women Frag 66",
+    "Homeric Hymn 32",
+    "Alcaeus Frag 34",
+    "Terpander Frag 5",
+    "Hyginus Fabulae 14",
+    "and other sources"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Apollo",
+   [
+    "Innumerable other sources",
+    "Hesiod Theogony 918",
+    "Hesiod Works",
+    "Days 770",
+    "Homer Iliad 1.9",
+    "Homer Iliad 21.495",
+    "Homer Odyssey 6.100",
+    "Homer Odyssey 11.318",
+    "Homeric Hymn 27 to Artemis",
+    "Orphic Hymn 35",
+    "Pindar Nemean Ode 6",
+    "Pindar Nemean Ode 8",
+    "Pindar Processional Song on Delos",
+    "Callimachus Hymn to Artemis",
+    "Hymn to Delos",
+    "Apollodorus 1.21",
+    "Apollodorus 3.46",
+    "Pausanias 8.9.1",
+    "Pausanias 8.53.1. Hyginus Fabulae 9",
+    "Pausanias 140",
+    "et al"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Anius",
+   [
+    "Apollodorus E3.10",
+    "Diodorus Siculus 5.62.1"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Polyphemus",
+   [
+    "Homer Odyssey 1.70",
+    "Apollodorus E7.4",
+    "Philostratus Elder 2.18",
+    "Ovid Metamorphoses 13.857",
+    "Hyginus Fabulae 125",
+    "Valerius Flaccus 4.104"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Delphus",
+   [
+    "Pausanias 10.6.3",
+    "Pausanias 10.6.4",
+    "Hyginus Fabulae 159"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Apis",
+   [
+    "Aeschylus Suppliant Women 260"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Laodocus",
+   [
+    "Apollodorus 1.56"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Polypoetes",
+   [
+    "Apollodorus 1.56"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Amphiaraus",
+   [
+    "Hyginus Fabulae 70"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Miletus",
+   [
+    "Apollodorus 3.1.2",
+    "Ovid Metamorphoses 9.443"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Aristaeus",
+   [
+    "Hesiod Catalogues of Women Frag 93",
+    "Pindar Pythian 9 ant3",
+    "Bacchylides Frag 45",
+    "Pausanias 10.17.3",
+    "Diodorus Siculus 4.81.1",
+    "Hyginus Fabulae 161",
+    "Hyginus Astronomica 2.4",
+    "Ovid Fasti 1.363",
+    "Virgil Georgics 4.320",
+    "Nonnus Dionysiaca 5.212",
+    "Nonnus Dionysiaca 13.253"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Aesculapius",
+   [
+    "Hesiod Catalogues Frag 90",
+    "Plato Republic 408b",
+    "Orphic Hymn 67",
+    "Apollodorus 3.118",
+    "Pausanias 2.26.1",
+    "Pausanias 3.26.4",
+    "Cicero De Natura Deorum 3.21",
+    "Hesiod Catalogues of Women Frag 90",
+    "Homeric Hymn to Asclepius",
+    "Pindar Pythian Ode 3",
+    "Erythrai Inscription",
+    "Apollonius Rhodius 4.610",
+    "Diodorus Siculus 4.71.3",
+    "Hyginus Fabulae 14",
+    "Hyginus Fabulae 202",
+    "Ovid Fasti 6.735"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Chaeron",
+   [
+    "Pausanias 9.40.5"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Scylla",
+   []
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Philammon",
+   [
+    "Hyginus Fabulae 200",
+    "Ovid Met. 11.291",
+    "Hyginus Fabulae 161"
+   ]
+  ],
+  [
+   "Thoosa",
+   "parent_of",
+   "Polyphemus",
+   [
+    "Homer Odyssey 1.70",
+    "Apollodorus E7.4"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Zeuxippus",
+   [
+    "Pausanias 2.6.7"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Linus",
+   [
+    "Callimachus Aitia 1.2",
+    "Pausanias 1.43.7",
+    "Statius Thebaid 1.540",
+    "Hesiod Frag 1",
+    "Hyginus Fabulae 159",
+    "Apollodorus 1.14"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Epidaurus",
+   [
+    "Pausanias 2.26.2"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Melaneus",
+   [
+    "Pausanias 4.2.2"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Dryops",
+   [
+    "Pausanias 4.34.11"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Iamus",
+   [
+    "Pindar Olympian 6.28",
+    "Pausanias 6.2.5"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Lycomedes",
+   [
+    "Pausanias 7.4.1"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Erymanthus",
+   [
+    "Ptolemy Hephaestion 1"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Oncius",
+   [
+    "Pausanias 8.25.4"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Tenerus",
+   []
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Eleuther",
+   [
+    "Pausanias 9.20.1"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Trophonius",
+   [
+    "Pausanias 9.32.5"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Lycorus",
+   [
+    "Pausanias 10.6.3",
+    "Hyginus Fabulae 159"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Phylacides",
+   [
+    "Pausanias 10.16.5"
+   ]
+  ],
+  [
+   "Apollo",
+   "parent_of",
+   "Philander",
+   [
+    "Pausanias 10.16.5"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Mercury",
+   []
+  ],
+  [
+   "Atlas",
+   "parent_of",
+   "Maia",
+   [
+    "Hesiod Theogony 938",
+    "Hesiod Astronomy Frag 1",
+    "Homeric Hymn 17.3",
+    "Simonides Frag 555",
+    "Virgil Aeneid 8.134"
+   ]
+  ],
+  [
+   "Thaumas",
+   "parent_of",
+   "Iris",
+   [
+    "Plato Theatetus 155d",
+    "Callimachus Hymn 5",
+    "Ptolemy Hephaestion 6",
+    "Ovid Met. 4.479",
+    "Vergil Aeneid 9.2",
+    "Cicero De Natura Deorum 3.20",
+    "Hesiod Theogony 265",
+    "Apollodorus 1.10",
+    "Hyginus Pref",
+    "Plato Theaetetus 155d",
+    "Callimachus Delian Hymn",
+    "Ovid Metamorphoses 4.479",
+    "Cicero De Natura Deum 3.20",
+    "Ptolemaeus Hephaestion 6"
+   ]
+  ],
+  [
+   "Electra",
+   "parent_of",
+   "Iris",
+   []
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Iarbas",
+   [
+    "Virgil Aeneid 4.198"
+   ]
+  ],
+  [
+   "Iapetus",
+   "parent_of",
+   "Atlas",
+   [
+    "Ovid Metamorphoses 4.627",
+    "Hesiod Theogony 371",
+    "Apollodorus 1.9"
+   ]
+  ],
+  [
+   "Atlas",
+   "parent_of",
+   "Electra",
+   [
+    "Hesiod Astronomy Frag 1",
+    "Lycophron 71",
+    "Virgil Aeneid 8",
+    "Virgil Aeneid 134",
+    "Nonnus Dionysiaca 3.124"
+   ]
+  ],
+  [
+   "Atlas",
+   "parent_of",
+   "Taygete",
+   [
+    "Hesiod Astronomy Frag 1"
+   ]
+  ],
+  [
+   "Atlas",
+   "parent_of",
+   "Calypso",
+   [
+    "Homer Odyssey 1.14",
+    "Apollodorus E7.23-24",
+    "Apollonius Rhodius Argonautica 4.573",
+    "Lycophron Alexandra 743",
+    "Hyginus Fabulae 125",
+    "Homer Odyssey 1.52",
+    "Apollodorus E7.23"
+   ]
+  ],
+  [
+   "Atlas",
+   "parent_of",
+   "Hesperides",
+   [
+    "Diodorus Sicululs 4.26.2",
+    "Pherecydes Frag",
+    "Hyginus Astronomica 2.3"
+   ]
+  ],
+  [
+   "Atlas",
+   "parent_of",
+   "Pleiades",
+   [
+    "Hesiod Astronomy Frag 1",
+    "Aeschylus Frag 172",
+    "Ovid Metamorphoses 6.172",
+    "Musaeus Frag",
+    "Hyginus Astronomica 2.21",
+    "Ovid Fasti 5.164",
+    "Hesiod Works",
+    "Days 383",
+    "Simonides Frag 555",
+    "Ovid Metamorphoses 6.169",
+    "Nonnus Dionysiaca 3.349",
+    "Apollodorus 3.110",
+    "Ovid Fasti 5.79",
+    "Hyginus Fabulae 192"
+   ]
+  ],
+  [
+   "Clymene",
+   "parent_of",
+   "Atlas",
+   []
+  ],
+  [
+   "Saturn",
+   "parent_of",
+   "Juno",
+   [
+    "Homer Iliad 15.187",
+    "Hesiod Theogony 453",
+    "Apollodorus 1.4",
+    "Diodorus Siculus 5.68.1",
+    "et al"
+   ]
+  ],
+  [
+   "Saturn",
+   "parent_of",
+   "Neptune",
+   [
+    "Homer Iliad 15.187",
+    "Hesiod Theogony 453",
+    "Apollodorus 1.4",
+    "Diodorus Siculus 5.68.1",
+    "et al"
+   ]
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Eryx",
+   [
+    "Apollodorus 2.5.10"
+   ]
+  ],
+  [
+   "Venus",
+   "parent_of",
+   "Eryx",
+   [
+    "Virgil Aeneid 5.22"
+   ]
+  ],
+  [
+   "Night",
+   "parent_of",
+   "Sleep",
+   [
+    "Hesiod Theogony 212",
+    "Homer Iliad 14.250",
+    "Aeschylus Frag 250",
+    "Seneca Hercules Furens1068",
+    "Nonnus Dionysiaca 31.103",
+    "Hesiod Theogony 221"
+   ]
+  ],
+  [
+   "Sleep",
+   "parent_of",
+   "Morpheus",
+   [
+    "Ovid Metamorphoses 11.592",
+    "Ovid Metamorphoses 11.630"
+   ]
+  ],
+  [
+   "Sleep",
+   "parent_of",
+   "Phantasos",
+   [
+    "Ovid Metamorphoses 11.630"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Minos",
+   [
+    "Hesiod Catalogues 19A",
+    "Apollodorus",
+    "et al"
+   ]
+  ],
+  [
+   "Uranus",
+   "parent_of",
+   "Tisiphone",
+   [
+    "Hesiod Theogony 176",
+    "Bacchylides Frag 52",
+    "Hesiod Theogony 184",
+    "Apollodorus 1.3",
+    "Apollodorus 1.34",
+    "Tzetzes on Hesiod's Theogony"
+   ]
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Tisiphone",
+   [
+    "Hesiod Theogony 176",
+    "Bacchylides Frag 52",
+    "Hyginus Pref NB text is corrupt",
+    "Apollodorus 1.3",
+    "Apollodorus 1.34"
+   ]
+  ],
+  [
+   "Typhon",
+   "parent_of",
+   "Cerberus",
+   [
+    "Hesiod Theogony 306",
+    "Quintus Smyrnaeus 6.260",
+    "Hyginus Pref",
+    "Fabulae 151"
+   ]
+  ],
+  [
+   "Echidna",
+   "parent_of",
+   "Cerberus",
+   [
+    "Bacchylides Frag 5",
+    "Ovid Metamorphoses 7.412",
+    "Hesiod Theogony 306",
+    "Hyginus Pref",
+    "Fabulae 151",
+    "Astr. 2.15",
+    "Quintus Smyrnaeus 6.249",
+    "Quintus Smyrnaeus 6.260"
+   ]
+  ],
+  [
+   "Minos",
+   "parent_of",
+   "Ariadne",
+   [
+    "Homer Odysseu 11.320",
+    "Hesiod Theogony 947",
+    "Plutarch Theseus 20.1",
+    "Diodorus Siculus 4.61.5",
+    "Ovid Metamorphoses 8.175",
+    "and others",
+    "Apollonius Rhodius 3.997",
+    "Hyginus Fabulae 224. Ovid Heroides 4.59"
+   ]
+  ],
+  [
+   "Juno",
+   "parent_of",
+   "Typhon",
+   [
+    "Homeric Hymns 3.300",
+    "Stesichorus Frag 239",
+    "Homeric Hymn 3.300"
+   ]
+  ],
+  [
+   "Saturn",
+   "parent_of",
+   "Picus",
+   [
+    "Ovid Metamorphoses 14.320",
+    "Virgil Aeneid 7.48"
+   ]
+  ],
+  [
+   "Saturn",
+   "parent_of",
+   "Jove",
+   [
+    "Homer Iliad 15.187",
+    "Hesiod Theogony 453",
+    "Apollodorus 1.4",
+    "Diodorus Siculus 5.68.1",
+    "et al"
+   ]
+  ],
+  [
+   "Rhea",
+   "parent_of",
+   "Juno",
+   []
+  ],
+  [
+   "Uranus",
+   "parent_of",
+   "Saturn",
+   [
+    "Hyginus Preface",
+    "Aeschylus Prometheus Bound 207"
+   ]
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Saturn",
+   [
+    "Hyginus Preface",
+    "Hesiod Theogony 135",
+    "Apollodorus 1.2",
+    "Diodorus Siculus 5.66.1",
+    "Aeschylus Prometheus Bound 207",
+    "Hyginus Pref NB text is corrupt"
+   ]
+  ],
+  [
+   "Uranus",
+   "parent_of",
+   "Rhea",
+   []
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Rhea",
+   [
+    "Hesiod Theogony 135",
+    "Apollodorus 1.2",
+    "Diodorus Siculus 5.66.1",
+    "Hyginus Pref NB text is corrupt"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Hercules",
+   [
+    "innumerable references",
+    "Cicero De Natura Deorum 3.16.42"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Vulcan",
+   []
+  ],
+  [
+   "Juno",
+   "parent_of",
+   "Vulcan",
+   [
+    "Hesiod Theogony 927",
+    "Homeric Hymn 3.310",
+    "Apollodorus 1.19",
+    "Pausanias 1.20.3",
+    "Hyginus Pref"
+   ]
+  ],
+  [
+   "Aurora",
+   "parent_of",
+   "Eurus",
+   [
+    "Nonnus Dionysiaca 6.18",
+    "Nonnus Dionysiaca 37.70"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Erato",
+   [
+    "Hesiod Theogony 53",
+    "Homeric Hymn IV",
+    "Orphic Hymn 76",
+    "Orphic Hymn 77",
+    "Pindar Isthmian 6",
+    "Terpander Frag 4",
+    "Alcman Frag 8",
+    "Apollodorus 1.13",
+    "Antoninus Liberalis 9",
+    "Hyginus Preface",
+    "Cicero De Natura Deorum 3.21"
+   ]
+  ],
+  [
+   "Uranus",
+   "parent_of",
+   "Allecto",
+   [
+    "Hesiod Theogony 176",
+    "Bacchylides Frag 52"
+   ]
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Allecto",
+   [
+    "Hesiod Theogony 176",
+    "Bacchylides Frag 52"
+   ]
+  ],
+  [
+   "Saturn",
+   "parent_of",
+   "Aïdoneus",
+   [
+    "Homer Iliad 15.187",
+    "Hesiod Theogony 453",
+    "Apollodorus 1.4",
+    "Diodorus Siculus 5.68.1",
+    "et al"
+   ]
+  ],
+  [
+   "Saturn",
+   "parent_of",
+   "Hestia",
+   [
+    "Homer Iliad 15.187",
+    "Hesiod Theogony 453",
+    "Apollodorus 1.4",
+    "Diodorus Siculus 5.68.1",
+    "et al"
+   ]
+  ],
+  [
+   "Saturn",
+   "parent_of",
+   "Demeter",
+   [
+    "Homer Iliad 15.187",
+    "Hesiod Theogony 453",
+    "Apollodorus 1.4",
+    "Diodorus Siculus 5.68.1",
+    "et al"
+   ]
+  ],
+  [
+   "Saturn",
+   "parent_of",
+   "Chiron",
+   [
+    "Titanomachia Frag 6",
+    "Pindar Pythian Ode 3",
+    "Apollodorus 1.8",
+    "Apollonius Rhodius 2.1231",
+    "Hyginus Faulaeb 138",
+    "Hyginus Astronomica 2.38",
+    "Ovid Metamorphoses 6.126",
+    "Ovid Metamorphoses 7.352",
+    "Ovid Fasti 5.379",
+    "Virgil Georgics 3.92",
+    "Virgil Georgics 3.549",
+    "Pliny Natural History 7.197",
+    "Eumelus Titanomachia Frag 6",
+    "Hyginus Fabulae 13"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Hebe",
+   []
+  ],
+  [
+   "Neptune",
+   "parent_of",
+   "Orion",
+   [
+    "Hesiod Astronomy Frag 4",
+    "Pherecydes Frag",
+    "Apollodorus 1.25",
+    "Hyginus Astronomica 2.34",
+    "Valerius Flaccus 4.104"
+   ]
+  ],
+  [
+   "Hyperion",
+   "parent_of",
+   "Aurora",
+   [
+    "Theogony 371",
+    "Apollodorus 1.9",
+    "Hyginus Pref",
+    "Homeric Hymn 31"
+   ]
+  ],
+  [
+   "Hecate",
+   "parent_of",
+   "Circe",
+   [
+    "Diodorus Siculus 4.45.1"
+   ]
+  ],
+  [
+   "Sun",
+   "parent_of",
+   "Circe",
+   [
+    "Homer's Epigrams XIV",
+    "Hyginus Fabulae 199",
+    "Ovid Metamorphoses 13.898",
+    "Valerius Flaccus 7.210"
+   ]
+  ],
+  [
+   "Faunus",
+   "parent_of",
+   "Silenus",
+   [
+    "Other references"
+   ]
+  ],
+  [
+   "Juno",
+   "parent_of",
+   "Hebe",
+   []
+  ],
+  [
+   "Aurora",
+   "parent_of",
+   "Phaethon",
+   [
+    "Hesiod Theogony 378",
+    "Apollodorus 1.8",
+    "Hesiod Theogony 986",
+    "Apollodorus 3.181",
+    "Pausanias 1.3.1"
+   ]
+  ],
+  [
+   "Theia",
+   "parent_of",
+   "Aurora",
+   [
+    "Theogony 371",
+    "Homeric Hymn To Helios",
+    "Apollodorus 1.9",
+    "Hyginus Pref"
+   ]
+  ],
+  [
+   "Aurora",
+   "parent_of",
+   "Boreas",
+   []
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Hecate",
+   [
+    "Schol. on Apoll. Rhod. 3.467 ap Musaeus",
+    "Hesiod Theogony 918",
+    "Hesiod Works",
+    "Days 770",
+    "Homer Iliad 1.9",
+    "Homer Iliad 21.495",
+    "Homer Odyssey 6.100",
+    "Homer Odyssey 11.318",
+    "Homeric Hymn 27 to Artemis",
+    "Orphic Hymn 35",
+    "Pindar Nemean Ode 6",
+    "Pindar Nemean Ode 8",
+    "Pindar Processional Song on Delos",
+    "Callimachus Hymn to Artemis",
+    "Hymn to Delos",
+    "Apollodorus 1.21",
+    "Apollodorus 3.46",
+    "Pausanias 8.9.1",
+    "Pausanias 8.53.1. Hyginus Fabulae 9",
+    "Pausanias 140",
+    "et al"
+   ]
+  ],
+  [
+   "Aurora",
+   "parent_of",
+   "Notus",
+   [
+    "Hesiod Theogony 378",
+    "Hyginus Pref",
+    "Nonnus Dionysiaca 6.18"
+   ]
+  ],
+  [
+   "Aurora",
+   "parent_of",
+   "Zephyrus",
+   []
+  ],
+  [
+   "Circe",
+   "parent_of",
+   "Agrius",
+   [
+    "Hesiod Theogony 1011"
+   ]
+  ],
+  [
+   "Circe",
+   "parent_of",
+   "Telegonus",
+   [
+    "Homerica Returns Frag 4",
+    "Homerica Telegony Frag 1",
+    "Plutarch Greek Roman Parallel Stories 41",
+    "Hyginus Fabulae 127",
+    "Oppian Halieutica 2.497",
+    "Hyginus Fabulae 125"
+   ]
+  ],
+  [
+   "Vulcan",
+   "parent_of",
+   "Cacus",
+   [
+    "Virgil Aeneid 8.195",
+    "Ovid Fasti 1.543"
+   ]
+  ],
+  [
+   "Uranus",
+   "parent_of",
+   "Steropes",
+   []
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Steropes",
+   [
+    "Hyginus Pref NB text is corrupt"
+   ]
+  ],
+  [
+   "Chrysaor",
+   "parent_of",
+   "Geryon",
+   [
+    "Hesiod Theogony 287",
+    "Stesichorus Geryoneis Frag",
+    "Apollodorus 2.106",
+    "Hyginus Pref",
+    "Ibycus Frag 282A",
+    "Diodorus Siculus 4.17.1",
+    "Stesichorus Geryoneis",
+    "Apollodorus 2.42",
+    "Fabulae 15"
+   ]
+  ],
+  [
+   "Callirrhoe",
+   "parent_of",
+   "Geryon",
+   [
+    "Hesiod Theogony 287",
+    "Stesichorus Geryoneis Frag",
+    "Apollodorus 2.106",
+    "Hyginus Pref"
+   ]
+  ],
+  [
+   "Cybele",
+   "parent_of",
+   "Jove",
+   []
+  ],
+  [
+   "Latona",
+   "parent_of",
+   "Apollo",
+   []
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Mars",
+   [
+    "Homer Iliad 5.699",
+    "Aeschylus Frag 282",
+    "Pausanias 2.14.3"
+   ]
+  ],
+  [
+   "Juno",
+   "parent_of",
+   "Mars",
+   [
+    "Homer Iliad 5.699",
+    "Aeschylus Frag 282",
+    "Pausanias 2.14.3",
+    "Ovid Fasti 5.229"
+   ]
+  ],
+  [
+   "Gaia",
+   "parent_of",
+   "Cybele",
+   [
+    "Hesiod Theogony 135",
+    "Apollodorus 1.2",
+    "Diodorus Siculus 5.66.1",
+    "Hyginus Pref NB text is corrupt"
+   ]
+  ],
+  [
+   "Coeus",
+   "parent_of",
+   "Latona",
+   [
+    "Hesiod Theogony 404",
+    "Apollodorus 1.9",
+    "Hyginus Preface",
+    "Homeric Hymn 3.61",
+    "Pindar Processional Song on Delos",
+    "Sappho Frag 44A",
+    "Orphic Hymn 35",
+    "Ovid Metamorphoses 6.186",
+    "Hyginus Fabulae 140"
+   ]
+  ],
+  [
+   "Phoebe",
+   "parent_of",
+   "Latona",
+   [
+    "Hesiod Theogony 404",
+    "Apollodorus 1.9",
+    "Hyginus Preface",
+    "Aeschylus Eumenides 6",
+    "Aeschylus Eumenides 323"
+   ]
+  ],
+  [
+   "Cybele",
+   "parent_of",
+   "Aïdoneus",
+   []
+  ],
+  [
+   "Cybele",
+   "parent_of",
+   "Demeter",
+   []
+  ],
+  [
+   "Mars",
+   "parent_of",
+   "Diomedes of Thrace",
+   [
+    "Apollodorus 2.5.8",
+    "Hyginus Fabulae 159"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Eris",
+   [
+    "Homer Iliad 4.441",
+    "Quintus Smyrnaeus 10.51"
+   ]
+  ],
+  [
+   "Juno",
+   "parent_of",
+   "Eris",
+   [
+    "Homer Iliad 4.441",
+    "Quintus Smyrnaeus 10.51"
+   ]
+  ],
+  [
+   "Mars",
+   "parent_of",
+   "Nike",
+   [
+    "Homeric Hymn 8 to Ares"
+   ]
+  ],
+  [
+   "Cybele",
+   "parent_of",
+   "Midas",
+   [
+    "Plutarch Life of Caesar 9",
+    "Hyginus Fabulae 191",
+    "Hyginus Fabulae 274"
+   ]
+  ],
+  [
+   "Clymene",
+   "parent_of",
+   "Phaethon",
+   [
+    "Hyginus Fabulae 154",
+    "Hyginus Preface",
+    "Fabulae 156",
+    "Ovid Metamorphoses 1.750",
+    "Nonnus Dionysiaca 38.108"
+   ]
+  ],
+  [
+   "Sun",
+   "parent_of",
+   "Phaethon",
+   [
+    "Aeschylus Heliades",
+    "Philoxenus of Cythera Frag 834",
+    "Pausanias 2.3.2",
+    "Apollonius Rhodius 4.598",
+    "Quintus Smyraneus 5.300",
+    "Diodorus Siculus 5.23.2",
+    "Philostratus the Elder 1.11",
+    "Seneca Medea 597",
+    "Hyginus Fabulae 153",
+    "Ovid Metamorphoses 1.751",
+    "Nonnus Dionysiaca 27.189"
+   ]
+  ],
+  [
+   "Jove",
+   "parent_of",
+   "Diana",
+   [
+    "Hesiod Theogony 918",
+    "Hesiod Works",
+    "Days 770",
+    "Homer Iliad 1.9",
+    "Homer Iliad 21.495",
+    "Homer Odyssey 6.100",
+    "Homer Odyssey 11.318",
+    "Homeric Hymn 27 to Artemis",
+    "Orphic Hymn 35",
+    "Pindar Nemean Ode 6",
+    "Pindar Nemean Ode 8",
+    "Pindar Processional Song on Delos",
+    "Callimachus Hymn to Artemis",
+    "Hymn to Delos",
+    "Apollodorus 1.21",
+    "Apollodorus 3.46",
+    "Pausanias 8.9.1",
+    "Pausanias 8.53.1. Hyginus Fabulae 9",
+    "Pausanias 140",
+    "et al"
+   ]
+  ]
+ ],
+ "places": {
+  "Hesiod Theogony 126": {
+   "book": "hesiod",
+   "section": "hesiod-body-15"
+  },
+  "Hesiod Theogony 938": {
+   "book": "hesiod",
+   "section": "hesiod-body-22"
+  },
+  "Aeschylus Libation Bearers 683": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-7"
+  },
+  "Apollodorus 3.112": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Apollodorus 1.10": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Apollodorus 1.2": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Pausanias 2.22.3": {
+   "book": "pausanias",
+   "section": "pausanias-body-66"
+  },
+  "Homer Iliad 19.85": {
+   "book": "iliad",
+   "section": "iliad-body-19"
+  },
+  "Aeschylus Libation Bearers 939": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-7"
+  },
+  "Aeschylus Seven 667": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-28"
+  },
+  "Pindar Olympian 9": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-9"
+  },
+  "Pindar Olympian 13": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-13"
+  },
+  "Aeschylus Prometheus Bound 589": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-20"
+  },
+  "Apollodorus 2.5": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Ovid Metamorphoses 1.750": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-1"
+  },
+  "Aeschylus Suppliants 1035": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-32"
+  },
+  "Hesiod Theogony 912": {
+   "book": "hesiod",
+   "section": "hesiod-body-22"
+  },
+  "Homeric Hymn 2 to Demeter": {
+   "book": "hesiod",
+   "section": "hesiod-body-46"
+  },
+  "Apollodorus 1.29": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Ovid Metamorphoses 5.501": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-49"
+  },
+  "Apollodorus 1.13": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Hesiod Theogony 75": {
+   "book": "hesiod",
+   "section": "hesiod-body-14"
+  },
+  "Hesiod Theogony 53": {
+   "book": "hesiod",
+   "section": "hesiod-body-14"
+  },
+  "Pindar Isthmian 6": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-43"
+  },
+  "Hesiod Theogony 907": {
+   "book": "hesiod",
+   "section": "hesiod-body-22"
+  },
+  "Homer Iliad 11.270": {
+   "book": "iliad",
+   "section": "iliad-body-11"
+  },
+  "Pindar Nemean Ode 7": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-33"
+  },
+  "Pausanias 1.18.5": {
+   "book": "pausanias",
+   "section": "pausanias-body-18"
+  },
+  "Apollodorus 1.22": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Apollodorus 1.23": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Apollodorus 1.28": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Apollodorus 1.56": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Pausanias 5.1.3": {
+   "book": "pausanias",
+   "section": "pausanias-body-145"
+  },
+  "Apollodorus 2.2": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Pausanias 2.22.5": {
+   "book": "pausanias",
+   "section": "pausanias-body-66"
+  },
+  "Hesiod Theogony 278": {
+   "book": "hesiod",
+   "section": "hesiod-body-16"
+  },
+  "Apollodorus 2.32": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Apollodorus 2.42": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Ovid Metamorphoses 4.781": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-39"
+  },
+  "Ovid Metamorphoses 6.119": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-56"
+  },
+  "Homer Iliad 14.319": {
+   "book": "iliad",
+   "section": "iliad-body-14"
+  },
+  "Apollodorus 2.5.11": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Homer Odyssey 11.260": {
+   "book": "odyssey",
+   "section": "odyssey-body-11"
+  },
+  "Apollodorus 3.41": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pausanias 2.6.1": {
+   "book": "pausanias",
+   "section": "pausanias-body-50"
+  },
+  "Apollodorus 3.77": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pausanias 8.25.5": {
+   "book": "pausanias",
+   "section": "pausanias-body-249"
+  },
+  "Statius Thebaid 6.301": {
+   "book": "statius-thebaid",
+   "section": "statius-thebaid-body-6"
+  },
+  "Apollodorus 3.100": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pausanias 8.3.6": {
+   "book": "pausanias",
+   "section": "pausanias-body-227"
+  },
+  "Ovid Metamorphoses 2.409": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-18"
+  },
+  "Apollodorus 3.116": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pausanias 3.12": {
+   "book": "pausanias",
+   "section": "pausanias-body-94"
+  },
+  "Apollodorus 3.138": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Quintus Smyrnaeus 13.545": {
+   "book": "fall-of-troy",
+   "section": "fall-of-troy-body-13"
+  },
+  "Virgil Aeneid 8.134": {
+   "book": "aeneid",
+   "section": "aeneid-body-8"
+  },
+  "Hesiod Catalogues of Women Frag 53": {
+   "book": "hesiod",
+   "section": "hesiod-body-24"
+  },
+  "Pindar Isthmian 8": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-1"
+  },
+  "Pindar Nemean 7": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-33"
+  },
+  "Apollodorus 3.156": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pausanias 2.29.2": {
+   "book": "pausanias",
+   "section": "pausanias-body-73"
+  },
+  "Pausanias 2.1.1": {
+   "book": "pausanias",
+   "section": "pausanias-body-45"
+  },
+  "Apollodorus 3.1.1": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Homer Iliad 6.205": {
+   "book": "iliad",
+   "section": "iliad-body-6"
+  },
+  "Apollodorus 2.5.5": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Apollodorus 2.105": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Pausanias 9.31.2": {
+   "book": "pausanias",
+   "section": "pausanias-body-309"
+  },
+  "Pausanias 9.35.1": {
+   "book": "pausanias",
+   "section": "pausanias-body-313"
+  },
+  "Aeschylus Suppliant Women 1039": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-32"
+  },
+  "Pindar Olympian Ode 7": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-7"
+  },
+  "Apollodorus 1.49": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Homer Iliad 3.237": {
+   "book": "iliad",
+   "section": "iliad-body-3"
+  },
+  "Homer Iliad 426": {
+   "book": "iliad",
+   "section": "iliad-body-1"
+  },
+  "Apollodorus 3.10.7": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pindar Nemean Ode 10": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-36"
+  },
+  "Hesiod Catalogues of Women Frag 66": {
+   "book": "hesiod",
+   "section": "hesiod-body-24"
+  },
+  "Homeric Hymn 32": {
+   "book": "hesiod",
+   "section": "hesiod-body-92"
+  },
+  "Hesiod Theogony 918": {
+   "book": "hesiod",
+   "section": "hesiod-body-22"
+  },
+  "Homer Iliad 1.9": {
+   "book": "iliad",
+   "section": "iliad-body-1"
+  },
+  "Homer Iliad 21.495": {
+   "book": "iliad",
+   "section": "iliad-body-21"
+  },
+  "Homer Odyssey 6.100": {
+   "book": "odyssey",
+   "section": "odyssey-body-6"
+  },
+  "Homer Odyssey 11.318": {
+   "book": "odyssey",
+   "section": "odyssey-body-11"
+  },
+  "Homeric Hymn 27 to Artemis": {
+   "book": "hesiod",
+   "section": "hesiod-body-87"
+  },
+  "Pindar Nemean Ode 6": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-32"
+  },
+  "Pindar Nemean Ode 8": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-34"
+  },
+  "Apollodorus 1.21": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Apollodorus 3.46": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pausanias 8.9.1": {
+   "book": "pausanias",
+   "section": "pausanias-body-233"
+  },
+  "Pausanias 8.53.1. Hyginus Fabulae 9": {
+   "book": "pausanias",
+   "section": "pausanias-body-277"
+  },
+  "Apollodorus E3.10": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Homer Odyssey 1.70": {
+   "book": "odyssey",
+   "section": "odyssey-body-1"
+  },
+  "Apollodorus E7.4": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Ovid Metamorphoses 13.857": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-104"
+  },
+  "Pausanias 10.6.3": {
+   "book": "pausanias",
+   "section": "pausanias-body-325"
+  },
+  "Pausanias 10.6.4": {
+   "book": "pausanias",
+   "section": "pausanias-body-325"
+  },
+  "Aeschylus Suppliant Women 260": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-32"
+  },
+  "Apollodorus 3.1.2": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Ovid Metamorphoses 9.443": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-78"
+  },
+  "Hesiod Catalogues of Women Frag 93": {
+   "book": "hesiod",
+   "section": "hesiod-body-24"
+  },
+  "Pindar Pythian 9 ant3": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-23"
+  },
+  "Pausanias 10.17.3": {
+   "book": "pausanias",
+   "section": "pausanias-body-336"
+  },
+  "Apollodorus 3.118": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pausanias 2.26.1": {
+   "book": "pausanias",
+   "section": "pausanias-body-70"
+  },
+  "Pausanias 3.26.4": {
+   "book": "pausanias",
+   "section": "pausanias-body-108"
+  },
+  "Hesiod Catalogues of Women Frag 90": {
+   "book": "hesiod",
+   "section": "hesiod-body-24"
+  },
+  "Pindar Pythian Ode 3": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-17"
+  },
+  "Apollonius Rhodius 4.610": {
+   "book": "argonautica",
+   "section": "argonautica-body-11"
+  },
+  "Pausanias 9.40.5": {
+   "book": "pausanias",
+   "section": "pausanias-body-318"
+  },
+  "Pausanias 2.6.7": {
+   "book": "pausanias",
+   "section": "pausanias-body-50"
+  },
+  "Pausanias 1.43.7": {
+   "book": "pausanias",
+   "section": "pausanias-body-43"
+  },
+  "Statius Thebaid 1.540": {
+   "book": "statius-thebaid",
+   "section": "statius-thebaid-body-1"
+  },
+  "Apollodorus 1.14": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Pausanias 2.26.2": {
+   "book": "pausanias",
+   "section": "pausanias-body-70"
+  },
+  "Pausanias 4.2.2": {
+   "book": "pausanias",
+   "section": "pausanias-body-110"
+  },
+  "Pausanias 4.34.11": {
+   "book": "pausanias",
+   "section": "pausanias-body-142"
+  },
+  "Pindar Olympian 6.28": {
+   "book": "pindar-odes",
+   "section": "pindar-odes-body-6"
+  },
+  "Pausanias 6.2.5": {
+   "book": "pausanias",
+   "section": "pausanias-body-173"
+  },
+  "Pausanias 7.4.1": {
+   "book": "pausanias",
+   "section": "pausanias-body-201"
+  },
+  "Pausanias 8.25.4": {
+   "book": "pausanias",
+   "section": "pausanias-body-249"
+  },
+  "Pausanias 9.20.1": {
+   "book": "pausanias",
+   "section": "pausanias-body-298"
+  },
+  "Pausanias 9.32.5": {
+   "book": "pausanias",
+   "section": "pausanias-body-310"
+  },
+  "Pausanias 10.16.5": {
+   "book": "pausanias",
+   "section": "pausanias-body-335"
+  },
+  "Homeric Hymn 17.3": {
+   "book": "hesiod",
+   "section": "hesiod-body-77"
+  },
+  "Vergil Aeneid 9.2": {
+   "book": "aeneid",
+   "section": "aeneid-body-9"
+  },
+  "Hesiod Theogony 265": {
+   "book": "hesiod",
+   "section": "hesiod-body-16"
+  },
+  "Ovid Metamorphoses 4.479": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-39"
+  },
+  "Virgil Aeneid 4.198": {
+   "book": "aeneid",
+   "section": "aeneid-body-4"
+  },
+  "Ovid Metamorphoses 4.627": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-39"
+  },
+  "Hesiod Theogony 371": {
+   "book": "hesiod",
+   "section": "hesiod-body-17"
+  },
+  "Apollodorus 1.9": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Virgil Aeneid 8": {
+   "book": "aeneid",
+   "section": "aeneid-body-8"
+  },
+  "Virgil Aeneid 134": {
+   "book": "aeneid",
+   "section": "aeneid-body-1"
+  },
+  "Homer Odyssey 1.14": {
+   "book": "odyssey",
+   "section": "odyssey-body-1"
+  },
+  "Apollodorus E7.23-24": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Homer Odyssey 1.52": {
+   "book": "odyssey",
+   "section": "odyssey-body-1"
+  },
+  "Apollodorus E7.23": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Ovid Metamorphoses 6.172": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-56"
+  },
+  "Ovid Metamorphoses 6.169": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-56"
+  },
+  "Apollodorus 3.110": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Homer Iliad 15.187": {
+   "book": "iliad",
+   "section": "iliad-body-15"
+  },
+  "Hesiod Theogony 453": {
+   "book": "hesiod",
+   "section": "hesiod-body-18"
+  },
+  "Apollodorus 1.4": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Apollodorus 2.5.10": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Virgil Aeneid 5.22": {
+   "book": "aeneid",
+   "section": "aeneid-body-5"
+  },
+  "Hesiod Theogony 212": {
+   "book": "hesiod",
+   "section": "hesiod-body-16"
+  },
+  "Homer Iliad 14.250": {
+   "book": "iliad",
+   "section": "iliad-body-14"
+  },
+  "Hesiod Theogony 221": {
+   "book": "hesiod",
+   "section": "hesiod-body-16"
+  },
+  "Ovid Metamorphoses 11.592": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-94"
+  },
+  "Ovid Metamorphoses 11.630": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-94"
+  },
+  "Hesiod Theogony 176": {
+   "book": "hesiod",
+   "section": "hesiod-body-15"
+  },
+  "Hesiod Theogony 184": {
+   "book": "hesiod",
+   "section": "hesiod-body-15"
+  },
+  "Apollodorus 1.3": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Apollodorus 1.34": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Hesiod Theogony 306": {
+   "book": "hesiod",
+   "section": "hesiod-body-16"
+  },
+  "Quintus Smyrnaeus 6.260": {
+   "book": "fall-of-troy",
+   "section": "fall-of-troy-body-6"
+  },
+  "Ovid Metamorphoses 7.412": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-63"
+  },
+  "Quintus Smyrnaeus 6.249": {
+   "book": "fall-of-troy",
+   "section": "fall-of-troy-body-6"
+  },
+  "Hesiod Theogony 947": {
+   "book": "hesiod",
+   "section": "hesiod-body-22"
+  },
+  "Ovid Metamorphoses 8.175": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-71"
+  },
+  "Apollonius Rhodius 3.997": {
+   "book": "argonautica",
+   "section": "argonautica-body-7"
+  },
+  "Homeric Hymn 3.300": {
+   "book": "hesiod",
+   "section": "hesiod-body-51"
+  },
+  "Ovid Metamorphoses 14.320": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-109"
+  },
+  "Virgil Aeneid 7.48": {
+   "book": "aeneid",
+   "section": "aeneid-body-7"
+  },
+  "Aeschylus Prometheus Bound 207": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-20"
+  },
+  "Hesiod Theogony 135": {
+   "book": "hesiod",
+   "section": "hesiod-body-15"
+  },
+  "Hesiod Theogony 927": {
+   "book": "hesiod",
+   "section": "hesiod-body-22"
+  },
+  "Homeric Hymn 3.310": {
+   "book": "hesiod",
+   "section": "hesiod-body-51"
+  },
+  "Apollodorus 1.19": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Pausanias 1.20.3": {
+   "book": "pausanias",
+   "section": "pausanias-body-20"
+  },
+  "Apollodorus 1.8": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Apollonius Rhodius 2.1231": {
+   "book": "argonautica",
+   "section": "argonautica-body-4"
+  },
+  "Ovid Metamorphoses 6.126": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-56"
+  },
+  "Ovid Metamorphoses 7.352": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-63"
+  },
+  "Apollodorus 1.25": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-1"
+  },
+  "Homeric Hymn 31": {
+   "book": "hesiod",
+   "section": "hesiod-body-91"
+  },
+  "Ovid Metamorphoses 13.898": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-104"
+  },
+  "Hesiod Theogony 378": {
+   "book": "hesiod",
+   "section": "hesiod-body-17"
+  },
+  "Hesiod Theogony 986": {
+   "book": "hesiod",
+   "section": "hesiod-body-23"
+  },
+  "Apollodorus 3.181": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-20"
+  },
+  "Pausanias 1.3.1": {
+   "book": "pausanias",
+   "section": "pausanias-body-3"
+  },
+  "Hesiod Theogony 1011": {
+   "book": "hesiod",
+   "section": "hesiod-body-23"
+  },
+  "Virgil Aeneid 8.195": {
+   "book": "aeneid",
+   "section": "aeneid-body-8"
+  },
+  "Hesiod Theogony 287": {
+   "book": "hesiod",
+   "section": "hesiod-body-16"
+  },
+  "Apollodorus 2.106": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Homer Iliad 5.699": {
+   "book": "iliad",
+   "section": "iliad-body-5"
+  },
+  "Pausanias 2.14.3": {
+   "book": "pausanias",
+   "section": "pausanias-body-58"
+  },
+  "Hesiod Theogony 404": {
+   "book": "hesiod",
+   "section": "hesiod-body-17"
+  },
+  "Homeric Hymn 3.61": {
+   "book": "hesiod",
+   "section": "hesiod-body-51"
+  },
+  "Ovid Metamorphoses 6.186": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-56"
+  },
+  "Aeschylus Eumenides 6": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-13"
+  },
+  "Aeschylus Eumenides 323": {
+   "book": "aeschylus",
+   "section": "aeschylus-body-13"
+  },
+  "Apollodorus 2.5.8": {
+   "book": "apollodorus",
+   "section": "apollodorus-body-10"
+  },
+  "Homer Iliad 4.441": {
+   "book": "iliad",
+   "section": "iliad-body-4"
+  },
+  "Quintus Smyrnaeus 10.51": {
+   "book": "fall-of-troy",
+   "section": "fall-of-troy-body-10"
+  },
+  "Homeric Hymn 8 to Ares": {
+   "book": "hesiod",
+   "section": "hesiod-body-68"
+  },
+  "Pausanias 2.3.2": {
+   "book": "pausanias",
+   "section": "pausanias-body-47"
+  },
+  "Apollonius Rhodius 4.598": {
+   "book": "argonautica",
+   "section": "argonautica-body-11"
+  },
+  "Ovid Metamorphoses 1.751": {
+   "book": "metamorphoses",
+   "section": "metamorphoses-body-1"
+  }
+ },
+ "report": {
+  "links": 409,
+  "confirmed": 182,
+  "wrong": [
+   [
+    "Chaos",
+    "parent_of",
+    "Gaia",
+    "outside",
+    "decided after review",
+    [],
+    []
+   ],
+   [
+    "Chaos",
+    "parent_of",
+    "Uranus",
+    "outside",
+    "Wikidata",
+    [
+     "AITHER",
+     "AKMON",
+     "GAIA",
+     "HEMERA",
+     "KHRONOS",
+     "NYX",
+     "WORLD EGG"
+    ],
+    [
+     "Protogenos/Ouranos"
+    ]
+   ],
+   [
+    "Neptune",
+    "parent_of",
+    "Æolus",
+    "outside",
+    "decided after review",
+    [],
+    []
+   ],
+   [
+    "Celæno",
+    "parent_of",
+    "Balius",
+    "outside",
+    "decided after review",
+    [],
+    []
+   ],
+   [
+    "Mars",
+    "parent_of",
+    "Ascalaphus",
+    "outside",
+    "kept only for iliad, pausanias",
+    [],
+    []
+   ]
+  ],
+  "review": [],
+  "crowded": [],
+  "unclear": [],
+  "unchecked": 222,
+  "added": [],
+  "kept_by_decision": 0
+ }
+}

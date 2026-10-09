@@ -1,0 +1,1979 @@
+{
+ "pausanias/artemis": {
+  "book": "pausanias",
+  "name": "Artemis",
+  "flags": [
+   "matched to several Wikidata entries: Hegemone, Artemis",
+   "3 parents"
+  ],
+  "links": [
+   {
+    "link": "Zeus parent_of Artemis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Standard tradition; Pausanias treats Zeus as her father and Theoi confirms."
+   },
+   {
+    "link": "Leto parent_of Artemis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pausanias names Leto as mother in his statue descriptions and local legends."
+   },
+   {
+    "link": "Apollo sibling_of Artemis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pausanias repeatedly pairs Apollo and Artemis as children of Leto."
+   },
+   {
+    "link": "Alpheus lover_of Artemis",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book tells the story of Alpheus's unrequited love, which was never a marriage; the lover relation is correct."
+   },
+   {
+    "link": "Demeter parent_of Artemis",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Pausanias 8.37.3 reports Aeschylus's Egyptian tradition that Demeter was her mother, which is a variant tradition."
+   }
+  ],
+  "identity": {
+   "problem": "The tree matched two Wikidata entries: Hegemone (Q1232483), a Charis and a cult title of Artemis, and the real Artemis (Q39503). Hegemone is only an epithet here and should not be a separate match.",
+   "fix": "drop_match",
+   "detail": "Drop the Hegemone (Q1232483) match and keep Artemis (Q39503). Cult titles such as Agrotera, Dictynna and Hymnia stay as epithets of the same goddess."
+  }
+ },
+ "hesiod/helios": {
+  "book": "hesiod",
+  "name": "Helios",
+  "flags": [
+   "3 parents",
+   "2 spouses"
+  ],
+  "links": [
+   {
+    "link": "Helios spouse_of Rhode",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Rhode is Helios's wife in Apollodorus and Pindar; Pindar's Rhodian tradition makes her his bride and the mother of his sons."
+   },
+   {
+    "link": "Helios parent_of Amalthea",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "Amalthea as Helios's daughter is a rare Apollodoran/Theoi item and not in Hesiod; it is not a Hesiod relation."
+   },
+   {
+    "link": "Helios parent_of Perses",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Perses is Helios's son in Apollodorus and Ovid, confirmed by Theoi."
+   },
+   {
+    "link": "Helios parent_of Augeas",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Augeas is Helios's son in Apollodorus, Pausanias and Pindar; Theoi confirms."
+   },
+   {
+    "link": "Helios parent_of Phaethusa",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Phaethusa is Helios's daughter in the Odyssey and Argonautica."
+   },
+   {
+    "link": "Helios parent_of Lampetia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Lampetia is Helios's daughter in the Odyssey and Argonautica."
+   },
+   {
+    "link": "Helios parent_of Heliades",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The Heliades are Helios's daughters in Ovid and elsewhere."
+   },
+   {
+    "link": "Helios lover_of Leucothoë",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Ovid has Helios love Leucothoë."
+   },
+   {
+    "link": "Helios parent_of Kameiros",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Kameiros is Helios's son by Rhodos in Pindar."
+   },
+   {
+    "link": "Helios parent_of Ialysos",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Ialysos is Helios's son by Rhodos in Pindar."
+   },
+   {
+    "link": "Helios parent_of Lindos",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Lindos is Helios's son by Rhodos in Pindar."
+   },
+   {
+    "link": "Helios lover_of Rhode",
+    "verdict": "wrong",
+    "fix": "make_lover",
+    "reason": "Duplicate of the spouse link; Rhode is a single link, so keep one as spouse and drop the lover link."
+   },
+   {
+    "link": "Helios parent_of Aietes",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Aietes is Helios's son; this is the same person as Aeetes."
+   },
+   {
+    "link": "Hyperion parent_of Helios",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Hesiod says Helios is Hyperion's son."
+   },
+   {
+    "link": "Theia parent_of Helios",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 371-374 names Theia as his mother."
+   },
+   {
+    "link": "Helios parent_of Phaethon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Phaethon is Helios's son in Ovid and others."
+   },
+   {
+    "link": "Helios parent_of Circe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 956-962 says so directly."
+   },
+   {
+    "link": "Helios parent_of Aeetes",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 956-962 says so; it duplicates Aietes and should be merged."
+   },
+   {
+    "link": "Helios spouse_of Perseis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Perseis bore Circe and Aeetes to Helios in Theogony 956."
+   },
+   {
+    "link": "Helios parent_of Pasiphae",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pasiphae is Helios's daughter in Apollodorus and Ovid, confirmed by Theoi."
+   },
+   {
+    "link": "Helios parent_of Macar",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Macar is a son of Helios on Rhodes, per Wikidata and tradition."
+   },
+   {
+    "link": "Euryphaessa parent_of Helios",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The Homeric Hymn to Helios names Euryphaessa as his mother, an alternate tradition to Theia."
+   },
+   {
+    "link": "Eos sibling_of Helios",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Eos is Helios's sister in Hesiod and the Hymn."
+   },
+   {
+    "link": "Helios sibling_of Selene",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Selene is Helios's sister in Hesiod and the Hymn."
+   }
+  ],
+  "identity": {
+   "problem": "none: Helios matches the right entry; the only issue is duplicate Aietes/Aeetes entries and a double Rhode link.",
+   "fix": "none",
+   "detail": "Q134270 is the Titan Helios. Merge Aeetes with Aietes and keep Rhode once as spouse."
+  }
+ },
+ "hesiod/ocean": {
+  "book": "hesiod",
+  "name": "Ocean",
+  "flags": [
+   "2 spouses",
+   "parents differ from Wikidata's"
+  ],
+  "links": [
+   {
+    "link": "Earth parent_of Ocean",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony: Ocean is son of Gaia and Ouranos."
+   },
+   {
+    "link": "Ocean parent_of Dione",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Dione is an Oceanid in Hesiod's Theogony catalogue (l. 353)."
+   },
+   {
+    "link": "Ocean parent_of Chorus of Oceanids",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The chorus are Ocean's daughters (Prometheus Bound); same group as Hesiod's Oceanids."
+   },
+   {
+    "link": "Ocean parent_of Asopus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Asopus is a river son of Ocean and Tethys in several sources."
+   },
+   {
+    "link": "Ocean parent_of Pleione",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pleione is an Oceanid, mother of the Pleiades."
+   },
+   {
+    "link": "Ocean parent_of Alpheus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "River Alpheus is son of Ocean and Tethys."
+   },
+   {
+    "link": "Ocean parent_of Daira",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pausanias gives Daira as an Oceanid (Eleusinian tradition)."
+   },
+   {
+    "link": "Ocean parent_of Ephyre",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Ephyre is an Oceanid in Hesiod's catalogue? Pausanias also treats her as a daughter of Ocean."
+   },
+   {
+    "link": "Ocean parent_of Neda",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Neda is an Oceanid nymph (Theogony, Pausanias)."
+   },
+   {
+    "link": "Ocean parent_of Caanthus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Caanthus is a son of Ocean who looked for his sister Melia."
+   },
+   {
+    "link": "Ocean parent_of Melia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Melia is an Oceanid, sister of Caanthus, mother of Ismenus."
+   },
+   {
+    "link": "Ocean parent_of Peitho",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Peitho is an Oceanid in Hesiod's list."
+   },
+   {
+    "link": "Ocean parent_of Kamarina",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pindar makes Kamarina an Oceanid nymph."
+   },
+   {
+    "link": "Heaven parent_of Ocean",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony and Wikidata agree."
+   },
+   {
+    "link": "Ocean spouse_of Tethys",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Hesiod's Ocean and Tethys are the parents of rivers and Oceanids."
+   },
+   {
+    "link": "Ocean parent_of Nile",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Nile is a river son of Ocean and Tethys."
+   },
+   {
+    "link": "Ocean parent_of Doris",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Doris, wife of Nereus, is Ocean's daughter."
+   },
+   {
+    "link": "Ocean parent_of Electra",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Electra the Oceanid, mother of Iris and the Harpies (Theogony 265)."
+   },
+   {
+    "link": "Ocean parent_of Callirrhoe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Callirrhoe is an Oceanid, mother of Geryon."
+   },
+   {
+    "link": "Ocean parent_of Styx",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Stated in the Theogony."
+   },
+   {
+    "link": "Ocean parent_of Clymene",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Stated in the Theogony."
+   },
+   {
+    "link": "Ocean parent_of Metis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Metis is an Oceanid (Theogony 358, 886)."
+   },
+   {
+    "link": "Ocean parent_of Perseis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Perseis is among the Oceanids, wife of Helios."
+   },
+   {
+    "link": "Ocean parent_of Eurynome",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Eurynome is an Oceanid, mother of the Graces."
+   },
+   {
+    "link": "Ocean parent_of Calypso",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Hesiod lists Calypso among Oceanids; note recorded."
+   },
+   {
+    "link": "Ocean parent_of Cephisus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Cephisus is a river son of Ocean and Tethys."
+   },
+   {
+    "link": "Ocean parent_of Nephele",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Nephele is an Oceanid in some sources; acceptable."
+   },
+   {
+    "link": "Ocean parent_of Achelous",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Achelous is the eldest son of Ocean and Tethys."
+   },
+   {
+    "link": "Ocean parent_of Inachus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Inachus is a river son of Ocean and Tethys."
+   },
+   {
+    "link": "Ocean parent_of Melobosis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Melobosis is listed among Hesiod's Oceanids."
+   },
+   {
+    "link": "Ocean parent_of Ianthe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Ianthe is in the Theogony catalogue of Oceanids."
+   },
+   {
+    "link": "Ocean parent_of Tyche",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Tyche is an Oceanid in Hesiod (Theogony 360)."
+   },
+   {
+    "link": "Ocean parent_of Phaeno",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Phaeno is an Oceanid in Hyginus's list."
+   },
+   {
+    "link": "Ocean parent_of Galaxaura",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Galaxaura is an Oceanid in the Homeric Hymn to Demeter."
+   },
+   {
+    "link": "Ocean parent_of Acaste",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Acaste is an Oceanid in Hesiod's catalogue."
+   },
+   {
+    "link": "Ocean parent_of Admete",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Admete is an Oceanid in Hesiod's catalogue."
+   },
+   {
+    "link": "Ocean parent_of Ocyrhoe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Ocyrhoe is an Oceanid in the Homeric Hymn to Demeter."
+   },
+   {
+    "link": "Ocean parent_of Pluto",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pluto the nymph is an Oceanid in Hesiod's catalogue (l. 355)."
+   },
+   {
+    "link": "Ocean parent_of Peneus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Peneus is a river son of Ocean and Tethys."
+   },
+   {
+    "link": "Ocean parent_of Philyra",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The fragment says Philyra is Ocean's daughter."
+   },
+   {
+    "link": "Ocean parent_of Chariclo",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Chariclo is usually an Oceanid nymph; Ocean as father is a minor tradition."
+   },
+   {
+    "link": "Ocean parent_of Passalus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book calls the Cercopes sons of Theia and Ocean."
+   },
+   {
+    "link": "Ocean spouse_of Theia",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book's Cercopes fragment names Theia as Ocean's mate, unlike Tethys."
+   },
+   {
+    "link": "Ocean parent_of Acmon",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Acmon as Cercops brother in the same tradition."
+   },
+   {
+    "link": "Ocean parent_of Simois",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Simois is a river son of Ocean and Tethys."
+   }
+  ],
+  "identity": {
+   "problem": "Flagged parent/spouse differences are not real conflicts: parents match Wikidata, and the second spouse Theia comes from the book's Cercopes fragment.",
+   "fix": "none",
+   "detail": "Wikidata match Oceanus (Q161419) is correct."
+  }
+ },
+ "hesiod/hyperion": {
+  "book": "hesiod",
+  "name": "Hyperion",
+  "flags": [
+   "2 spouses",
+   "parents differ from Wikidata's"
+  ],
+  "links": [
+   {
+    "link": "Heaven parent_of Hyperion",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony: Hyperion is a son of Ouranos and Gaia."
+   },
+   {
+    "link": "Earth parent_of Hyperion",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony: Hyperion is a son of Ouranos and Gaia."
+   },
+   {
+    "link": "Hyperion spouse_of Theia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony ll. 371-374 names Theia as Hyperion's wife and mother of Helios, Selene and Eos."
+   },
+   {
+    "link": "Hyperion parent_of Lampetie",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Odyssey makes Lampetie a daughter of Helios, so she is Hyperion's granddaughter. The link only counts if Hyperion stands for Helios in the Odyssey, and this book does not say it."
+   },
+   {
+    "link": "Hyperion parent_of Helios",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony ll. 371-374 and the Homeric Hymn to Demeter call Helios Hyperion's son."
+   },
+   {
+    "link": "Hyperion parent_of Selene",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony ll. 371-374 names Selene as a child of Hyperion and Theia."
+   },
+   {
+    "link": "Euryphaessa spouse_of Hyperion",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The Homeric Hymn gives Euryphaessa, his sister, as Hyperion's wife, a rival tradition to Theia."
+   },
+   {
+    "link": "Euryphaessa sibling_of Hyperion",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The Hymn calls Euryphaessa Hyperion's own sister, so the link is right for that passage."
+   },
+   {
+    "link": "Hyperion parent_of Eos",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony ll. 371-374 names Eos as a child of Hyperion and Theia."
+   }
+  ],
+  "identity": {
+   "problem": "The two spouses flagged are Theia in the Theogony and Euryphaessa in the Homeric Hymn, which are two separate traditions rather than an error. The Wikidata match is correct, and the parents agree with Wikidata.",
+   "fix": "none",
+   "detail": "The Wikidata entry Hyperion (Q179209) is correct, so no change is needed. Keep both wives, with Euryphaessa marked as the Hymn's variant."
+  }
+ },
+ "hesiod/theia": {
+  "book": "hesiod",
+  "name": "Theia",
+  "flags": [
+   "2 spouses",
+   "parents differ from Wikidata's"
+  ],
+  "links": [
+   {
+    "link": "Heaven parent_of Theia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Hesiod Theogony names Ouranos and Gaia as parents of the Titans; Theoi and Wikidata agree."
+   },
+   {
+    "link": "Earth parent_of Theia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Gaia is Theia's mother in Hesiod, Theoi and Wikidata."
+   },
+   {
+    "link": "Hyperion spouse_of Theia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 371-374 says Theia was subject in love to Hyperion."
+   },
+   {
+    "link": "Theia parent_of Selene",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 371-374 names Selene as a child of Theia and Hyperion."
+   },
+   {
+    "link": "Theia parent_of Helios",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Quoted lines 371-374 say Theia bore Helios."
+   },
+   {
+    "link": "Theia parent_of Eos",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Quoted lines 371-374 say Theia bore Eos."
+   },
+   {
+    "link": "Theia parent_of Passalus",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives the Cercopes as sons of Theia and Ocean, a rare tradition (a scholiast note), stated in its own words."
+   },
+   {
+    "link": "Ocean spouse_of Theia",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Same rare tradition that the Cercopes were sons of Theia and Ocean; Hyperion remains her main spouse."
+   }
+  ],
+  "identity": {
+   "problem": "No identity problem. The two spouses are Hyperion (main) and Ocean (variant for the Cercopes), and the parents match Wikidata.",
+   "fix": "none",
+   "detail": "Theia (Q184232) is the correct entry."
+  }
+ },
+ "statius-thebaid/hercules": {
+  "book": "statius-thebaid",
+  "name": "Hercules",
+  "flags": [
+   "3 spouses",
+   "parents differ from Wikidata's"
+  ],
+  "links": [
+   {
+    "link": "Jove parent_of Hercules",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Zeus is the father of Heracles in the standard tradition."
+   },
+   {
+    "link": "Hercules parent_of Aventinus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Aeneid 7 makes Aventinus the son of Hercules by Rhea the priestess."
+   },
+   {
+    "link": "Hercules spouse_of Megara",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Megara was his wife, given to him by Creon."
+   },
+   {
+    "link": "Abderus lover_of Hercules",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Abderus was his beloved, eaten by the mares of Diomedes."
+   },
+   {
+    "link": "Hercules sibling_of Iphicles",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Iphicles is his twin half-brother, son of Amphitryon and Alcmene."
+   },
+   {
+    "link": "Hercules lover_of Auge",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Auge bore Telephus to him after he raped her."
+   },
+   {
+    "link": "Hercules spouse_of Deianira",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Deianira was his wife and caused his death."
+   },
+   {
+    "link": "Hercules parent_of Tlepolemus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Tlepolemus, son of Heracles, led the Rhodians at Troy."
+   },
+   {
+    "link": "Hercules parent_of Hyllus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Hyllus is his son by Deianira."
+   },
+   {
+    "link": "Hercules spouse_of Hebe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "He married Hebe after his apotheosis."
+   },
+   {
+    "link": "Hercules parent_of Alexiares",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Alexiares is a son of Heracles and Hebe."
+   },
+   {
+    "link": "Hercules lover_of Melite",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Melite, a nymph, bore him Hyllus in the Phaeacian tradition."
+   },
+   {
+    "link": "Hercules parent_of Telephus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Telephus is his son by Auge."
+   },
+   {
+    "link": "Hercules sibling_of Iphiclus, son of Amphitryon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Same as Iphicles, a spelling variant of the name; it duplicates that entry."
+   },
+   {
+    "link": "Hercules parent_of Antiochus, son of Hercules",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Antiochus is a son of Heracles by Meda, per Pausanias."
+   },
+   {
+    "link": "Hercules parent_of Macaria",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Macaria is his daughter by Deianira."
+   },
+   {
+    "link": "Hercules lover_of Omphale",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "He served Omphale and was her lover; Wikidata lists her as a spouse but the tradition is of service and love."
+   },
+   {
+    "link": "Hercules parent_of Tyrsenus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pausanias names Tyrsenus as a son of Heracles."
+   },
+   {
+    "link": "Hercules parent_of Tleptolemus",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "A spelling variant of Tlepolemus, a duplicate."
+   },
+   {
+    "link": "Hercules parent_of Bœus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pausanias gives Boeus as a son of Heracles."
+   },
+   {
+    "link": "Hercules parent_of Glenus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Glenus is a son of Heracles and Deianira."
+   },
+   {
+    "link": "Hercules parent_of Theagenes",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theagenes is named as his son by Pausanias."
+   },
+   {
+    "link": "Hercules lover_of Phialo",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Phialo bore him Aechmagoras at Pausanias' Arcadian tale."
+   },
+   {
+    "link": "Hercules parent_of Æchmagoras",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Aechmagoras is his son by Phialo."
+   },
+   {
+    "link": "Hercules parent_of Echephron",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Echephron is a son of Heracles and Psophis, per Pausanias."
+   },
+   {
+    "link": "Hercules parent_of Promachus, son of Hercules",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Promachus is Heracles' son by Psophis."
+   },
+   {
+    "link": "Hercules parent_of Hercules' sons by Megara",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "A group description, not a person; it duplicates his children by Megara."
+   },
+   {
+    "link": "Hercules parent_of Tlepolemos",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "A spelling variant of Tlepolemus, a duplicate."
+   },
+   {
+    "link": "Hercules sibling_of Iphikles",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "A spelling variant of Iphicles, a duplicate."
+   },
+   {
+    "link": "Hercules parent_of Chromis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states Chromis was born of Hercules."
+   },
+   {
+    "link": "Hercules parent_of Agylleus",
+    "verdict": "namesake",
+    "fix": "remove",
+    "reason": "Agylleus is a Theban name; the Wikidata link is a doubtful namesake and the book does not say it."
+   }
+  ],
+  "identity": {
+   "problem": "Wikidata's Heracles is right, but the tree has duplicate spelling variants of the same persons.",
+   "fix": "none",
+   "detail": "Keep the match to Heracles; merge the duplicates Tlepolemus, Tleptolemus, Tlepolemos and Iphicles, Iphiclus, Iphikles."
+  }
+ },
+ "hesiod/erinyes": {
+  "book": "hesiod",
+  "name": "Erinyes",
+  "flags": [
+   "3 parents",
+   "parents differ from Wikidata's"
+  ],
+  "links": [
+   {
+    "link": "Night parent_of Erinyes",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "Hesiod's Theogony has the Erinyes born from Earth when Ouranos's blood falls. Night as their mother is Aeschylus's version, and Hesiod's Night bears other children (Fates, Keres), not the Erinyes."
+   },
+   {
+    "link": "Earth parent_of Erinyes",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 176ff: Earth received the drops of blood and bore the Erinyes."
+   },
+   {
+    "link": "Heaven parent_of Erinyes",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Their birth is from the blood of the castrated Ouranos, so he counts as their parent (Theogony 176)."
+   }
+  ],
+  "identity": {
+   "problem": "No real identity problem. The Erinyes are a group of beings, and the Wikidata match is correct. The parent conflict comes from other authors' traditions being merged into Hesiod's tree.",
+   "fix": "none",
+   "detail": "Keep the Wikidata match. Show only Earth and Heaven as parents in the Hesiod tree."
+  }
+ },
+ "pausanias/apollo": {
+  "book": "pausanias",
+  "name": "Apollo",
+  "flags": [
+   "matched to several Wikidata entries: Pythios, Apollo"
+  ],
+  "links": [
+   {
+    "link": "Zeus parent_of Apollo",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Standard parentage, confirmed by Theoi."
+   },
+   {
+    "link": "Apollo parent_of Anius",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Anius son of Apollo by Rhoeo; Theoi confirms."
+   },
+   {
+    "link": "Apollo parent_of Apis",
+    "verdict": "namesake",
+    "fix": "remove",
+    "reason": "Aeschylus' Apis is a seer from Naupactus, a son of Apollo in Suppliants; not in Pausanias, and unconfirmed here."
+   },
+   {
+    "link": "Apollo parent_of Idmon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Idmon the Argonaut seer, son of Apollo; Theoi confirms."
+   },
+   {
+    "link": "Apollo parent_of Amphithemis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Amphithemis (Garamas) son of Apollo and Acacallis in Argonautica."
+   },
+   {
+    "link": "Apollo lover_of Ileus",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "Ileus is a name for Ajax the Locrian's father or Oileus; no Apollo liaison is attested."
+   },
+   {
+    "link": "Apollo parent_of Scylla",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "Scylla is not a daughter of Apollo; Hesiod-site link is a misread or a guess."
+   },
+   {
+    "link": "Apollo lover_of Hymenaeus",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Hymenaeus is sometimes said to be Apollo's son or beloved; it is a minor tradition."
+   },
+   {
+    "link": "Apollo lover_of Cyparissus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Cyparissus was beloved of Apollo in Ovid."
+   },
+   {
+    "link": "Apollo lover_of Euadne",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "Pindar's Evadne bore Iamus to Apollo; lover is acceptable."
+   },
+   {
+    "link": "Apollo lover_of Kyrene",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Cyrene was loved by Apollo in Pindar; duplicate of Cyrene."
+   },
+   {
+    "link": "Apollo lover_of Arsinoe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Arsinoe, daughter of Leucippus, bore Asclepius to Apollo in the Hesiodic tradition."
+   },
+   {
+    "link": "Apollo parent_of Orpheus",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Orpheus is sometimes called son of Apollo and Calliope."
+   },
+   {
+    "link": "Apollo lover_of Cassandra",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Apollo desired Cassandra and gave her prophecy in Aeschylus."
+   },
+   {
+    "link": "Apollo sibling_of Hermes",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "Hermes is a half-brother, being son of Zeus and Maia; the link is acceptable as a half-sibling but not full."
+   },
+   {
+    "link": "Apollo lover_of Creusa",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states this directly."
+   },
+   {
+    "link": "Apollo parent_of Pycimede",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "Pycimede is not a child of Apollo; no source."
+   },
+   {
+    "link": "Leto parent_of Apollo",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book says so and Theoi confirms."
+   },
+   {
+    "link": "Apollo lover_of Psamathe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly."
+   },
+   {
+    "link": "Apollo parent_of Coronus, son of Apollo",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book says Coronus was supposedly Apollo's son."
+   },
+   {
+    "link": "Apollo parent_of Zeuxippus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly."
+   },
+   {
+    "link": "Apollo parent_of Linus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly."
+   },
+   {
+    "link": "Apollo sibling_of Artemis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Twin children of Leto."
+   },
+   {
+    "link": "Apollo parent_of Æsculapius",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly."
+   },
+   {
+    "link": "Apollo lover_of Coronis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book names Coronis as Apollo's lover, not a spouse."
+   },
+   {
+    "link": "Apollo parent_of Epidaurus",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives this as the Epidaurian tradition."
+   },
+   {
+    "link": "Apollo parent_of Pythæus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly, citing Telesilla."
+   },
+   {
+    "link": "Apollo parent_of Hilaira",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives the Cypria's tradition."
+   },
+   {
+    "link": "Apollo parent_of Phœbe",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives the Cypria's tradition; her name is the Leucippides' Phoebe, not the Titan."
+   },
+   {
+    "link": "Apollo lover_of Hyacinthus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states Apollo's love for him."
+   },
+   {
+    "link": "Apollo parent_of Melaneus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Melaneus is a son of Apollo in Wikidata and Theoi."
+   },
+   {
+    "link": "Apollo parent_of Philammon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Apollo parent_of Dryops",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives this as local tradition."
+   },
+   {
+    "link": "Apollo parent_of Iamus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly, citing Pindar."
+   },
+   {
+    "link": "Apollo parent_of Miletus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Apollo parent_of Lycomedes",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "The quoted passage concerns Phoenix and Perimede; Lycomedes is unsupported by it."
+   },
+   {
+    "link": "Apollo lover_of Daphne",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book says Apollo loved Daphne, daughter of Ladon."
+   },
+   {
+    "link": "Apollo parent_of Erymanthus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Erymanthus is a son of Apollo in the tradition."
+   },
+   {
+    "link": "Apollo parent_of Oncius",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly."
+   },
+   {
+    "link": "Apollo parent_of Cydon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Cydon is a son of Apollo in one tradition."
+   },
+   {
+    "link": "Apollo parent_of Tenerus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly."
+   },
+   {
+    "link": "Apollo lover_of Melia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states Apollo's union with Melia."
+   },
+   {
+    "link": "Apollo parent_of Eleuther",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly."
+   },
+   {
+    "link": "Apollo parent_of Trophonius",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives this as one tradition, favouring Erginus' paternity."
+   },
+   {
+    "link": "Apollo parent_of Chæron",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book quotes the verse stating it."
+   },
+   {
+    "link": "Apollo lover_of Thero",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The verse says Thero bore Chæron to Apollo."
+   },
+   {
+    "link": "Apollo parent_of Phemonoe",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Phemonoe is the first Pythia, and is sometimes called Apollo's daughter."
+   },
+   {
+    "link": "Apollo parent_of Lycorus",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives this as a different tradition."
+   },
+   {
+    "link": "Apollo lover_of Corycia",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives this as the other tradition."
+   },
+   {
+    "link": "Apollo parent_of Delphus",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book gives this as one of several traditions."
+   },
+   {
+    "link": "Apollo lover_of Thyia",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "The book says 'others' make Thyia the mother of Delphus."
+   },
+   {
+    "link": "Apollo lover_of Cyrene",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Cyrene was loved by Apollo, mother of Aristaeus."
+   },
+   {
+    "link": "Apollo parent_of Phylacides",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book gives this local Elyrian tradition."
+   },
+   {
+    "link": "Apollo parent_of Philander",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book gives this local Elyrian tradition."
+   },
+   {
+    "link": "Acacallis lover_of Apollo",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book says it was an intrigue, and she is a lover."
+   },
+   {
+    "link": "Apollo parent_of Aristæus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book states it directly."
+   },
+   {
+    "link": "Apollo parent_of Laodocus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Apollo parent_of Polypœtes",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Apollo lover_of Amphissa",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "The book says Amphissa was beloved by Apollo; this is a lover, not a spouse."
+   }
+  ],
+  "identity": {
+   "problem": "The name matched two Wikidata entries, Pythios, a cult epithet, and Apollo; Wikidata also lists Amphissa and Urania as spouses, though Amphissa was a lover.",
+   "fix": "drop_match",
+   "detail": "Drop the Pythios (Q107189402) match and keep Apollo (Q37340); treat Amphissa as a lover, not a spouse."
+  }
+ },
+ "hesiod/zeus": {
+  "book": "hesiod",
+  "name": "Zeus",
+  "flags": [
+   "2 spouses"
+  ],
+  "links": [
+   {
+    "link": "Cronos parent_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says Zeus son of Cronos."
+   },
+   {
+    "link": "Zeus parent_of Graces",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 907-909: Eurynome bore Zeus the Graces."
+   },
+   {
+    "link": "Zeus parent_of Iarbas",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Aeneid tradition, Theoi confirms (Jupiter Ammon)."
+   },
+   {
+    "link": "Zeus parent_of Ate",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Iliad/Aeschylean tradition, Theoi confirms."
+   },
+   {
+    "link": "Elare lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Mother of Tityos by Zeus; lover."
+   },
+   {
+    "link": "Zeus parent_of Myrmidon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Pirithous",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms; Dia."
+   },
+   {
+    "link": "Zeus parent_of Argus",
+    "verdict": "namesake",
+    "fix": "remove",
+    "reason": "Argus son of Zeus and Niobe is a different Argus than the usual ones; weak, unconfirmed; keep only as other-book link."
+   },
+   {
+    "link": "Niobe lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Niobe daughter of Phoroneus bore Argus to Zeus."
+   },
+   {
+    "link": "Antiope lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Mother of Amphion and Zethus."
+   },
+   {
+    "link": "Zeus parent_of Lacedaemon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms; by Taygete."
+   },
+   {
+    "link": "Aegina lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Mother of Aeacus."
+   },
+   {
+    "link": "Zeus parent_of Corinthus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Folly",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Folly is Ate, daughter of Zeus."
+   },
+   {
+    "link": "Calisto lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Spelling variant of Callisto; duplicate to merge."
+   },
+   {
+    "link": "Zeus parent_of Pallas",
+    "verdict": "namesake",
+    "fix": "remove",
+    "reason": "Pallas son of Zeus is rare; the Titan Pallas is another."
+   },
+   {
+    "link": "Ægina lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Spelling variant of Aegina; duplicate."
+   },
+   {
+    "link": "Zeus parent_of Arcesius",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Father of Laertes, son of Zeus in Ovid."
+   },
+   {
+    "link": "Zeus parent_of Naiads",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Odyssey: nymphs are daughters of Zeus."
+   },
+   {
+    "link": "Zeus parent_of Megarus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pausanias gives Megarus as son of Zeus."
+   },
+   {
+    "link": "Zeus parent_of Britomartis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Opportunity",
+    "verdict": "wrong",
+    "fix": "remove",
+    "reason": "Kairos is a personification, not Zeus's child in Hesiod; Pausanias passage doesn't fit."
+   },
+   {
+    "link": "Zeus lover_of Thebe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Thebe, daughter of Asopus, loved by Zeus."
+   },
+   {
+    "link": "Zeus parent_of Thalia",
+    "verdict": "namesake",
+    "fix": "split",
+    "reason": "Thalia the nymph mother of Palici differs from Muse/Grace; Theoi confirms the Nymph Thalia."
+   },
+   {
+    "link": "Zeus parent_of Sibyl",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pausanias: Lamia's daughter Sibyl by Zeus/Poseidon tradition."
+   },
+   {
+    "link": "Zeus parent_of Truth",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pindar calls Truth daughter of Zeus."
+   },
+   {
+    "link": "Zeus parent_of Fortune",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pindar: Tyche daughter of Zeus."
+   },
+   {
+    "link": "Zeus parent_of Ares",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 921-923 says Hera bore Ares to Zeus."
+   },
+   {
+    "link": "Zeus parent_of Justice",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says Justice is Zeus's daughter."
+   },
+   {
+    "link": "Demeter lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 912-914: Zeus lay with Demeter, bore Persephone."
+   },
+   {
+    "link": "Poseidon sibling_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony: Rhea bore both."
+   },
+   {
+    "link": "Zeus parent_of Apollo",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Son of Zeus and Leto."
+   },
+   {
+    "link": "Callisto lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says Zeus seduced her."
+   },
+   {
+    "link": "Zeus parent_of Arcas",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Nymphs",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Fragment says Nymphs daughters of Zeus."
+   },
+   {
+    "link": "Zeus parent_of Muses",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says Muses daughters of Zeus."
+   },
+   {
+    "link": "Mnemosyne lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book: nine nights; lover/consort."
+   },
+   {
+    "link": "Zeus parent_of Athena",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Born from his head."
+   },
+   {
+    "link": "Zeus parent_of Thaleia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 76-77: Thaleia the Muse."
+   },
+   {
+    "link": "Zeus parent_of Erato",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Muse."
+   },
+   {
+    "link": "Zeus parent_of Melpomene",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Muse."
+   },
+   {
+    "link": "Zeus parent_of Euterpe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Muse."
+   },
+   {
+    "link": "Zeus parent_of Terpsichore",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Muse."
+   },
+   {
+    "link": "Zeus parent_of Heracles",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says son of Zeus."
+   },
+   {
+    "link": "Hera spouse_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says Hera his wife."
+   },
+   {
+    "link": "Zeus parent_of Perseus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Leto lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony: Leto bore Apollo and Artemis to Zeus; consort."
+   },
+   {
+    "link": "Rhea parent_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book states."
+   },
+   {
+    "link": "Zeus parent_of Hephaestus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book calls Zeus his father."
+   },
+   {
+    "link": "Hades sibling_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book calls Hades his brother."
+   },
+   {
+    "link": "Zeus parent_of Hebe",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Hera bore Hebe to Zeus."
+   },
+   {
+    "link": "Zeus parent_of Hermes",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Eurynome spouse_of Zeus",
+    "verdict": "wrong",
+    "fix": "make_lover",
+    "reason": "Eurynome bore the Graces to Zeus but was not a wife."
+   },
+   {
+    "link": "Zeus parent_of Aglaea",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 907-909."
+   },
+   {
+    "link": "Metis lover_of Zeus",
+    "verdict": "wrong",
+    "fix": "make_lover",
+    "reason": "Theogony 886: Zeus made Metis his first wife; Wikidata also lists her as spouse. Keep as spouse, not mere lover."
+   },
+   {
+    "link": "Zeus lover_of Themis",
+    "verdict": "wrong",
+    "fix": "make_lover",
+    "reason": "Book says Zeus married Themis; she is a wife, not a lover."
+   },
+   {
+    "link": "Zeus parent_of Aeacus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Iasion",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus lover_of Pandora",
+    "verdict": "namesake",
+    "fix": "remove",
+    "reason": "Fragment's Pandora is Deucalion's daughter, mother of Graecus; not the first woman."
+   },
+   {
+    "link": "Zeus parent_of Macedon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Fragment says so."
+   },
+   {
+    "link": "Zeus parent_of Magnes",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Fragment says so."
+   },
+   {
+    "link": "Zeus parent_of Aethlius",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Danae lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Mother of Perseus."
+   },
+   {
+    "link": "Zeus parent_of Minos",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Rhadamanthys",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Sarpedon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Europa lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says he mated with her."
+   },
+   {
+    "link": "Zeus parent_of Tityos",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Amphion",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Pelasgus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Apollodorus: Pelasgus son of Zeus and Niobe (or Larissa)."
+   },
+   {
+    "link": "Zeus parent_of Epaphus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Helen",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Castor",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Polydeuces",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Zethus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Dardanus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Eetion",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Alcmena lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Electra lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Clio",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Muse."
+   },
+   {
+    "link": "Ganymede lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Beloved of Zeus."
+   },
+   {
+    "link": "Io lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says he seduced her."
+   },
+   {
+    "link": "Zeus parent_of Dionysus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Semele lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Persephone",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Aphrodite",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Hymn calls her daughter of Zeus."
+   },
+   {
+    "link": "Maia lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Hera sibling_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says sister and wife."
+   },
+   {
+    "link": "Leda lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Hestia sibling_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Rhea bore Hestia."
+   },
+   {
+    "link": "Zeus parent_of Artemis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Calliope",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Selene lover_of Zeus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Homeric Hymn to Selene says so."
+   },
+   {
+    "link": "Zeus parent_of Pandia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says so."
+   },
+   {
+    "link": "Zeus parent_of Hermus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Fragment says Zeus begot the river Hermus."
+   },
+   {
+    "link": "Zeus parent_of Nemesis",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says her father Zeus."
+   },
+   {
+    "link": "Zeus parent_of Tantalus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theoi confirms."
+   },
+   {
+    "link": "Zeus parent_of Euphrosyne",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony 907-909."
+   },
+   {
+    "link": "Zeus parent_of Thaleia, one of the Graces",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Theogony: Thaleia the Grace; distinct from Thaleia the Muse, so keep both."
+   }
+  ],
+  "identity": {
+   "problem": "Wikidata lists Themis and Metis as spouses and the two flagged spouse links are Eurynome and the lover-labelled wives; Eurynome is a lover, while Themis and Metis were wives.",
+   "fix": "none",
+   "detail": "Match to Zeus (Q34201) is right. Make Eurynome a lover; Themis and Metis should be spouses per Theogony 886 and 901."
+  }
+ },
+ "pausanias/poseidon": {
+  "book": "pausanias",
+  "name": "Poseidon",
+  "flags": [
+   "matched to several Wikidata entries: Poseidon, Taraxippus"
+  ],
+  "links": [
+   {
+    "link": "Poseidon parent_of Athene",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Book reports the Libyan legend that she is daughter of Poseidon and Tritonian Marsh."
+   },
+   {
+    "link": "Poseidon parent_of Pegasus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Standard tradition, Pegasus is Poseidon's son by Medusa."
+   },
+   {
+    "link": "Poseidon parent_of Pegasos",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Same as Pegasus, a spelling variant; duplicate entry."
+   },
+   {
+    "link": "Poseidon parent_of Doliones",
+    "verdict": "namesake",
+    "fix": "remove",
+    "reason": "Doliones are a people, not a person; Poseidon's descent is a tribal claim, not a family link here."
+   },
+   {
+    "link": "Poseidon parent_of Phocus, son of Ornytion",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Book says only nominally Poseidon's son; real father is Ornytion."
+   },
+   {
+    "link": "Poseidon parent_of Lamia",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says Lamia was Poseidon's daughter."
+   },
+   {
+    "link": "Poseidon parent_of Cycnus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book states Cycnus of Colonae is Poseidon's son."
+   },
+   {
+    "link": "Poseidon parent_of Cygnus",
+    "verdict": "namesake",
+    "fix": "keep",
+    "reason": "Metamorphoses Cygnus is a Poseidon son too but a different figure; ok to keep as separate."
+   },
+   {
+    "link": "Poseidon parent_of Despœna",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Arcadian tradition in the book."
+   },
+   {
+    "link": "Poseidon parent_of Arion",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book's Arcadian tale of Arion the foal."
+   },
+   {
+    "link": "Demeter lover_of Poseidon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book tells Poseidon pursued Demeter as a mare."
+   },
+   {
+    "link": "Amphitrite spouse_of Poseidon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Standard tradition, supported by Wikidata."
+   },
+   {
+    "link": "Poseidon lover_of Tyro",
+    "verdict": "right",
+    "fix": "make_lover",
+    "reason": "Tyro was Poseidon's lover; Wikidata lists her as spouse, so keep as lover."
+   },
+   {
+    "link": "Corcyra lover_of Poseidon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says she had an amour with Poseidon."
+   },
+   {
+    "link": "Poseidon parent_of Peratus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book says Chalcinia bore Peratus to Poseidon."
+   },
+   {
+    "link": "Poseidon lover_of Pelops",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Pindar tradition of Poseidon's love for Pelops."
+   },
+   {
+    "link": "Cronos parent_of Poseidon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Standard parentage per Theoi and Wikidata."
+   },
+   {
+    "link": "Rhea parent_of Poseidon",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book names Rhea as mother."
+   },
+   {
+    "link": "Poseidon parent_of Orion",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Hesiodic tradition."
+   },
+   {
+    "link": "Poseidon parent_of Erginus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Argonautica tradition."
+   },
+   {
+    "link": "Poseidon parent_of Athene",
+    "verdict": "variant",
+    "fix": "keep",
+    "reason": "Rare Libyan tradition given by the book."
+   },
+   {
+    "link": "Poseidon parent_of Parnassus",
+    "verdict": "right",
+    "fix": "keep",
+    "reason": "Book's tale with two fathers."
+   }
+  ],
+  "identity": {
+   "problem": "Matched to both Poseidon and Taraxippus; Taraxippus is the horse-scaring cult title of Poseidon Hippios at Olympia, not a separate person.",
+   "fix": "drop_match",
+   "detail": "Keep only Poseidon (Q41127) and drop Taraxippus (Q770627)."
+  }
+ }
+}
